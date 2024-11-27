@@ -14,6 +14,7 @@ public class EditorGridSystem_wrapper : BaseWrapper
 	public UnityEngine.Tilemaps.Tile doorTile;
 	public UnityEngine.Tilemaps.Tile consoleTile;
 	public UnityEngine.Tilemaps.Tile coinTile;
+	public UnityEngine.Tilemaps.Tile ronTile;
 	public UnityEngine.Texture2D placingCursor;
 	public System.String defaultDecoration;
 	public PaintableGrid paintableGrid;
@@ -31,6 +32,7 @@ public class EditorGridSystem_wrapper : BaseWrapper
 		MainLoop.initAppropriateSystemField (system, "doorTile", doorTile);
 		MainLoop.initAppropriateSystemField (system, "consoleTile", consoleTile);
 		MainLoop.initAppropriateSystemField (system, "coinTile", coinTile);
+		MainLoop.initAppropriateSystemField (system, "ronTile", ronTile);
 		MainLoop.initAppropriateSystemField (system, "placingCursor", placingCursor);
 		MainLoop.initAppropriateSystemField (system, "defaultDecoration", defaultDecoration);
 		MainLoop.initAppropriateSystemField (system, "paintableGrid", paintableGrid);

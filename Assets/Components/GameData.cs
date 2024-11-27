@@ -15,6 +15,8 @@ public class GameData : MonoBehaviour {
 	public int totalActionBlocUsed;
 	public int totalExecute;
 	public int totalCoin;
+	public int totalRon;
+
 	public GameObject actionsHistory; //all actions made in the level, displayed at the end
 	public float gameSpeed_default = 1f;
 	public float gameSpeed_current = 1f;

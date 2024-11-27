@@ -27,6 +27,7 @@ public class EditorGridSystem : FSystem
 	public Tile doorTile;
 	public Tile consoleTile;
 	public Tile coinTile;
+	public Tile ronTile;
 	public Texture2D placingCursor;
 	public string defaultDecoration;
 	public PaintableGrid paintableGrid;
@@ -174,6 +175,18 @@ public class EditorGridSystem : FSystem
 						Debug.Log("Warning: Skipped coin from file " + levelKey + ". Wrong position!");
 					}
 					break;
+				case "ron":
+					try
+					{
+						int posCol = int.Parse(child.Attributes.GetNamedItem("posX").Value);
+						int posLig = int.Parse(child.Attributes.GetNamedItem("posY").Value);
+						setTile(posLig, posCol, Cell.Ron);
+					}
+					catch
+					{
+						Debug.Log("Warning: Skipped ron from file " + levelKey + ". Wrong position!");
+					}
+					break;
 				case "console":
 					try
 					{
@@ -299,6 +312,8 @@ public class EditorGridSystem : FSystem
 						Cell.Door => new Door(rotation, line, col),
 						Cell.Console => new Console(rotation, line, col),
 						Cell.Coin => new FloorObject(Cell.Coin, Direction.Dir.North, line, col, false, false),
+						Cell.Ron => new FloorObject(Cell.Ron, Direction.Dir.North, line, col, false, false),
+
 						_ => null
 					};
 			}
@@ -362,6 +377,7 @@ public class EditorGridSystem : FSystem
 			Cell.Door => doorTile,
 			Cell.Console => consoleTile,
 			Cell.Coin => coinTile,
+			Cell.Ron => ronTile,
 			_ => null
 		};
 	}
@@ -386,7 +402,8 @@ public enum Cell
 	Decoration = 10002,
 	Door = 10003,
 	Console = 10004,
-	Coin = 10005
+	Coin = 10005,
+	Ron = 10006
 }
 
 public class FloorObject

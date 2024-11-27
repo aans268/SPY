@@ -265,7 +265,8 @@ public class UISystem : FSystem {
 		gameData.totalActionBlocUsed = 0;
 		gameData.totalStep = 0;
 		gameData.totalExecute = 0;
-		gameData.totalCoin = 0;
+		gameData.totalCoin = 0;		
+		gameData.totalRon = 0;
 		gameData.levelToLoadScore = null;
 }
 
