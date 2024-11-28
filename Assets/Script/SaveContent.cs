@@ -66,6 +66,7 @@ public class SaveContent {
         public List<RawCurrentAction> currentDroneActions = new List<RawCurrentAction>();
         public List<RawLoop> currentLoopParams = new List<RawLoop>();
         public int totalCoin = 0;
+        public int totalRon = 0;
     }
 
     public RawSave rawSave = new RawSave();
