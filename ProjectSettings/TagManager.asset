@@ -21,6 +21,7 @@ TagManager:
   - ScriptEditorCanvas
   - ConditionNotif
   - 1Ron
+  - RonDoor
   layers:
   - Default
   - TransparentFX

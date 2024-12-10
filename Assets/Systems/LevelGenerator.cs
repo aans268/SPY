@@ -139,6 +139,11 @@ public class LevelGenerator : FSystem {
 					createDoor(int.Parse(child.Attributes.GetNamedItem("posX").Value), int.Parse(child.Attributes.GetNamedItem("posY").Value),
 					(Direction.Dir)int.Parse(child.Attributes.GetNamedItem("direction").Value), int.Parse(child.Attributes.GetNamedItem("slotId").Value));
 					break;
+
+				case "ronDoor":
+					createDoor(int.Parse(child.Attributes.GetNamedItem("posX").Value), int.Parse(child.Attributes.GetNamedItem("posY").Value),
+					(Direction.Dir)int.Parse(child.Attributes.GetNamedItem("direction").Value), int.Parse(child.Attributes.GetNamedItem("slotId").Value));
+					break;
 				case "robot":
 				case "guard":
 				case "player": // backward compatibility
@@ -335,6 +340,16 @@ public class LevelGenerator : FSystem {
 		door.GetComponentInChildren<Position>().y = gridY;
 		door.GetComponentInChildren<Direction>().direction = orientation;
 		GameObjectManager.bind(door);
+	}
+
+	private void createRonDoor(int gridX, int gridY, Direction.Dir orientation, int slotID){
+		GameObject ronDoor = GameObject.Instantiate<GameObject>(Resources.Load ("Prefabs/RonDoor") as GameObject, LevelGO.transform.position + new Vector3(gridY*3,3,gridX*3), Quaternion.Euler(0,0,0), LevelGO.transform);
+
+		ronDoor.GetComponentInChildren<ActivationSlot>().slotID = slotID;
+		ronDoor.GetComponentInChildren<Position>().x = gridX;
+		ronDoor.GetComponentInChildren<Position>().y = gridY;
+		ronDoor.GetComponentInChildren<Direction>().direction = orientation;
+		GameObjectManager.bind(ronDoor);
 	}
 
 	private void createDecoration(string name, int gridX, int gridY, Direction.Dir orientation)

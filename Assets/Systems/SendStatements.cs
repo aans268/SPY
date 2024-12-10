@@ -41,6 +41,7 @@ public class SendStatements : FSystem {
 
     // Use to process your families.
     protected override void onProcess(int familiesUpdateCount) {
+        //Debug.Log(gameData);
         if (gameData.sendStatementEnabled)
         {
             // Do not use callbacks because in case in the same frame actions are removed on a GO and another component is added in another system, family will not trigger again callback because component will not be processed
