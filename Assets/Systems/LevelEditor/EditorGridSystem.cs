@@ -25,6 +25,7 @@ public class EditorGridSystem : FSystem
 	public Tile enemyTile;
 	public Tile decoTile;
 	public Tile doorTile;
+	public Tile ronDoorTile;
 	public Tile consoleTile;
 	public Tile coinTile;
 	public Tile ronTile;
@@ -224,6 +225,20 @@ public class EditorGridSystem : FSystem
 						Debug.Log("Warning: Skipped door from file " + levelKey + ". Wrong data!");
 					}
 					break;
+				case "ronDoor":
+					try
+					{
+						position = getPositionFromXElement(child);
+						orientation = (Direction.Dir)int.Parse(child.Attributes.GetNamedItem("direction").Value);
+						setTile(position.Item1, position.Item2, Cell.RonDoor, orientation);
+						string slotId = child.Attributes.GetNamedItem("slotId").Value;
+						((RonDoor)paintableGrid.floorObjects[position]).slot = slotId;
+					}
+					catch
+					{
+						Debug.Log("Warning: Skipped door from file " + levelKey + ". Wrong data!");
+					}
+					break;
 				case "player":
 					try
 					{
@@ -310,6 +325,7 @@ public class EditorGridSystem : FSystem
 						Cell.Enemy => new EnemyRobot("Eve", rotation, line, col),
 						Cell.Decoration => new DecorationObject(defaultDecoration, rotation, line, col),
 						Cell.Door => new Door(rotation, line, col),
+						Cell.RonDoor => new RonDoor(rotation, line, col),
 						Cell.Console => new Console(rotation, line, col),
 						Cell.Coin => new FloorObject(Cell.Coin, Direction.Dir.North, line, col, false, false),
 						Cell.Ron => new FloorObject(Cell.Ron, Direction.Dir.North, line, col, false, false),
@@ -375,6 +391,7 @@ public class EditorGridSystem : FSystem
 			Cell.Enemy => enemyTile,
 			Cell.Decoration => decoTile,
 			Cell.Door => doorTile,
+			Cell.RonDoor => ronDoorTile,
 			Cell.Console => consoleTile,
 			Cell.Coin => coinTile,
 			Cell.Ron => ronTile,
@@ -401,6 +418,7 @@ public enum Cell
 	Enemy = 10001,
 	Decoration = 10002,
 	Door = 10003,
+	RonDoor = 10007,
 	Console = 10004,
 	Coin = 10005,
 	Ron = 10006
@@ -453,6 +471,16 @@ public class Door : FloorObject
 	public string slot;
 
 	public Door(Direction.Dir orientation, int line, int col) : base(Cell.Door, orientation, line, col)
+	{
+		this.slot = "0";
+	}
+}
+
+public class RonDoor : FloorObject
+{
+	public string slot;
+
+	public RonDoor(Direction.Dir orientation, int line, int col) : base(Cell.RonDoor, orientation, line, col)
 	{
 		this.slot = "0";
 	}

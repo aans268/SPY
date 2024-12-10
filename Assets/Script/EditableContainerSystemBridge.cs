@@ -22,3 +22,4 @@ public class EditableContainerSystemBridge : MonoBehaviour
 		EditableContainerSystem.instance.selectContainer(container);
 	}
 }
+

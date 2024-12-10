@@ -245,6 +245,9 @@ public class SaveFileSystem : FSystem
 				case Door d:
 					levelExport += "\t<door posX=\"" + (d.col+1 - minCol) + "\" posY=\"" + (d.line+ 1 - minLine) + "\" slotId=\""+ d.slot + "\" direction=\""+ (int)d.orientation + "\" />\n\n";
 					break;
+				case RonDoor rd:
+					levelExport += "\t<rondoor posX=\"" + (rd.col+1 - minCol) + "\" posY=\"" + (rd.line+ 1 - minLine) + "\" slotId=\""+ rd.slot + "\" direction=\""+ (int)rd.orientation + "\" />\n\n";
+					break;
 				case PlayerRobot pr:
 					levelExport += "\t<player inputLine=\""+ pr.inputLine + "\" posX=\"" + (pr.col + 1 - minCol) + "\" posY=\"" + (pr.line + 1 - minLine) + "\" direction=\"" + (int)pr.orientation + "\" />\n\n";
 					break;

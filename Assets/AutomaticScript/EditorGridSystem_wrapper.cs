@@ -12,6 +12,7 @@ public class EditorGridSystem_wrapper : BaseWrapper
 	public UnityEngine.Tilemaps.Tile enemyTile;
 	public UnityEngine.Tilemaps.Tile decoTile;
 	public UnityEngine.Tilemaps.Tile doorTile;
+	public UnityEngine.Tilemaps.Tile ronDoorTile;
 	public UnityEngine.Tilemaps.Tile consoleTile;
 	public UnityEngine.Tilemaps.Tile coinTile;
 	public UnityEngine.Tilemaps.Tile ronTile;
@@ -30,6 +31,7 @@ public class EditorGridSystem_wrapper : BaseWrapper
 		MainLoop.initAppropriateSystemField (system, "enemyTile", enemyTile);
 		MainLoop.initAppropriateSystemField (system, "decoTile", decoTile);
 		MainLoop.initAppropriateSystemField (system, "doorTile", doorTile);
+		MainLoop.initAppropriateSystemField (system, "ronDoorTile", ronDoorTile);
 		MainLoop.initAppropriateSystemField (system, "consoleTile", consoleTile);
 		MainLoop.initAppropriateSystemField (system, "coinTile", coinTile);
 		MainLoop.initAppropriateSystemField (system, "ronTile", ronTile);
