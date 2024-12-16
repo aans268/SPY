@@ -96,6 +96,13 @@ public class TilePopupSystem : FSystem
 					// load data
 					doorSlotPopup.GetComponentInChildren<TMP_InputField>().text = d.slot;
 					break;
+				case RonDoor d:
+					// enable popups
+					GameObjectManager.setGameObjectState(orientationPopup, true);
+					GameObjectManager.setGameObjectState(doorSlotPopup, true);
+					// load data
+					doorSlotPopup.GetComponentInChildren<TMP_InputField>().text = d.slot;
+					break;
 				case Console c:
 					// enable popups
 					GameObjectManager.setGameObjectState(orientationPopup, true);
@@ -235,6 +242,13 @@ public class TilePopupSystem : FSystem
 	{
 		if (selectedObject != null)
 			((Door)selectedObject).slot = newData;
+	}
+
+	// see ronDoorSlotPopup GameObject childs
+	public void popupRonDoorSlot(string newData)
+	{
+		if (selectedObject != null)
+			((RonDoor)selectedObject).slot = newData;
 	}
 
 	// see furniturePopup GameObject childs

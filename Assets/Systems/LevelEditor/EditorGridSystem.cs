@@ -236,7 +236,7 @@ public class EditorGridSystem : FSystem
 					}
 					catch
 					{
-						Debug.Log("Warning: Skipped door from file " + levelKey + ". Wrong data!");
+						Debug.Log("Warning: Skipped ronDoor from file " + levelKey + ". Wrong data!");
 					}
 					break;
 				case "player":
