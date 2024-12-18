@@ -37,6 +37,7 @@ public class RonManager : FSystem
 				//Check if the player collide with a coin
                 if(target.CompareTag("1Ron")){
                     gameData.totalRon++;
+					//Debug.Log("gamedata ron : "+gameData.totalRon);
                     //target.GetComponent<AudioSource>().Play();
 					target.GetComponent<Collider>().enabled = false;
                     MainLoop.instance.StartCoroutine(ronDestroy(target));					

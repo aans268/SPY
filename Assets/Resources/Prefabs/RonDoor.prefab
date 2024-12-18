@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 8500741584370866711}
   m_Layer: 8
   m_Name: Door (1)
-  m_TagString: Door
+  m_TagString: RonDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -182,8 +182,8 @@ Transform:
   m_GameObject: {fileID: 2965342237369845601}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.068, y: -0.3448276, z: 0.06}
-  m_LocalScale: {x: 1, y: 5.7999997, z: 0.1724138}
+  m_LocalPosition: {x: -0.002413793, y: -0.34500003, z: 3.36}
+  m_LocalScale: {x: 1, y: 8.1, z: 0.1724138}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7715740742387444103}
@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 5784465783275252092}
   m_Layer: 8
   m_Name: Door
-  m_TagString: Door
+  m_TagString: RonDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -361,7 +361,7 @@ Transform:
   m_GameObject: {fileID: 6293387629174268916}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.118, y: 0, z: 0}
   m_LocalScale: {x: 2.9, y: 2.9, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
