@@ -76,6 +76,8 @@
 		<blockLimit blockType="Enemy" limit="-1" />
 		<blockLimit blockType="RedArea" limit="-1" />
 		<blockLimit blockType="FieldGate" limit="-1" />
+		<blockLimit blockType="RonDoor" limit="-1" />
+
 		<blockLimit blockType="Terminal" limit="-1" />
 		<blockLimit blockType="Exit" limit="-1" />
 	</blockLimits>

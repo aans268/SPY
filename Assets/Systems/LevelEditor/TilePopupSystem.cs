@@ -20,6 +20,10 @@ public class TilePopupSystem : FSystem
 	public GameObject rangePopup;
 	public GameObject consoleSlotsPopup;
 	public GameObject doorSlotPopup;
+	public GameObject ronDoorSlot1Popup;
+	public GameObject ronDoorSlot2Popup;
+	public GameObject ronDoorSlot3Popup;
+
 	public GameObject furniturePopup;
 
 	public PaintableGrid paintableGrid;
@@ -96,12 +100,15 @@ public class TilePopupSystem : FSystem
 					// load data
 					doorSlotPopup.GetComponentInChildren<TMP_InputField>().text = d.slot;
 					break;
-				case RonDoor d:
+				case RonDoor rd:
 					// enable popups
 					GameObjectManager.setGameObjectState(orientationPopup, true);
-					GameObjectManager.setGameObjectState(doorSlotPopup, true);
+					GameObjectManager.setGameObjectState(ronDoorSlot1Popup, true);
+					GameObjectManager.setGameObjectState(ronDoorSlot2Popup, true);
+					GameObjectManager.setGameObjectState(ronDoorSlot3Popup, true);
+
 					// load data
-					doorSlotPopup.GetComponentInChildren<TMP_InputField>().text = d.slot;
+					//doorSlotPopup.GetComponentInChildren<TMP_InputField>().text = d.slot;
 					break;
 				case Console c:
 					// enable popups
@@ -154,7 +161,6 @@ public class TilePopupSystem : FSystem
 		else
 			GameObjectManager.setGameObjectState(selection, false);
 	}
-
 	private void hideAllPopups()
 	{
 		foreach (GameObject popup in f_popups)
@@ -247,8 +253,8 @@ public class TilePopupSystem : FSystem
 	// see ronDoorSlotPopup GameObject childs
 	public void popupRonDoorSlot(string newData)
 	{
-		if (selectedObject != null)
-			((RonDoor)selectedObject).slot = newData;
+		//if (selectedObject != null)
+			//((RonDoor)selectedObject).slot = newData;
 	}
 
 	// see furniturePopup GameObject childs
