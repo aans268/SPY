@@ -491,6 +491,7 @@ public class RonDoor : FloorObject
 	public RonDoor(Direction.Dir orientation, int line, int col) : base(Cell.RonDoor, orientation, line, col)
 	{
 		this.equation = "0 + RON * 0 ";
+		this.operator_sign = "=";
 		this.result = 0;
 	}
 }

@@ -35,6 +35,7 @@ public class TilePopupSystem : FSystem
 	private FloorObject selectedObject;
 
 	private List<string> furnitureNameToPath = new List<string>();
+	private List<string> operator_sign_index = new List<string> { "=", "!=", "<", "<=", ">", ">=" };
 
 	public TilePopupSystem()
 	{
@@ -110,8 +111,8 @@ public class TilePopupSystem : FSystem
 
 					// load data
 					ronDoorSlot1Popup.GetComponentInChildren<TMP_InputField>().text = rd.equation;
-					ronDoorSlot2Popup.GetComponentInChildren<TMP_Dropdown>().value = rd.operator_sign;
-					ronDoorSlot3Popup.GetComponentInChildren<TMP_InputField>().text = (rd.result).ToString();
+					ronDoorSlot2Popup.GetComponentInChildren<TMP_Dropdown>().value = operator_sign_index.IndexOf(rd.operator_sign);
+					ronDoorSlot3Popup.GetComponentInChildren<TMP_InputField>().text = rd.result.ToString();
 
 					//Debug.Log(rd);
 					break;
@@ -248,19 +249,28 @@ public class TilePopupSystem : FSystem
 			((Console)selectedObject).state = newData;
 	}
 
-	// see doorSlotPopup GameObject childs
-	public void popupDoorSlot(string newData)
+	// see ronDoorSlotPopup GameObject childs eq field
+	public void popupRonDoorSlot1(string newData)
 	{
 		if (selectedObject != null)
-			((Door)selectedObject).slot = newData;
+			((RonDoor)selectedObject).equation = newData;
 	}
 
-	// see ronDoorSlotPopup GameObject childs
-	public void popupRonDoorSlot(string newData)
+	// see ronDoorSlotPopup GameObject childs operator dropdown
+	public void popupRonDoorSlot2(int newData)
 	{
-		//if (selectedObject != null)
-			//((RonDoor)selectedObject).slot = newData;
+		if (selectedObject != null)
+			((RonDoor)selectedObject).operator_sign = operator_sign_index[newData];
 	}
+
+	// see ronDoorSlotPopup GameObject childs result field
+	public void popupRonDoorSlot3(string newData)
+	{
+		if (selectedObject != null)
+			((RonDoor)selectedObject).result = int.TryParse(newData, out int x) ? x : 0;
+	}
+	
+
 
 	// see furniturePopup GameObject childs
 	public void popupFurnitureDropDown(int newData)
