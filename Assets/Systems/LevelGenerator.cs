@@ -142,7 +142,10 @@ public class LevelGenerator : FSystem {
 
 				case "ronDoor":
 					createRonDoor(int.Parse(child.Attributes.GetNamedItem("posX").Value), int.Parse(child.Attributes.GetNamedItem("posY").Value),
-					(Direction.Dir)int.Parse(child.Attributes.GetNamedItem("direction").Value), int.Parse(child.Attributes.GetNamedItem("slotId").Value));
+					(Direction.Dir)int.Parse(child.Attributes.GetNamedItem("direction").Value), 
+					child.Attributes.GetNamedItem("equation").Value,//slot1
+					child.Attributes.GetNamedItem("operator_sign").Value,//slot2
+					int.Parse(child.Attributes.GetNamedItem("result").Value));//slot3
 					break;
 				case "robot":
 				case "guard":
@@ -342,10 +345,12 @@ public class LevelGenerator : FSystem {
 		GameObjectManager.bind(door);
 	}
 
-	private void createRonDoor(int gridX, int gridY, Direction.Dir orientation, int slotID){
+	private void createRonDoor(int gridX, int gridY, Direction.Dir orientation, string slot1, string slot2 ,int slot3 ){
 		GameObject ronDoor = GameObject.Instantiate<GameObject>(Resources.Load ("Prefabs/RonDoor") as GameObject, LevelGO.transform.position + new Vector3(gridY*3,3,gridX*3), Quaternion.Euler(0,0,0), LevelGO.transform);
 
-		ronDoor.GetComponentInChildren<ActivationSlot>().slotID = slotID;
+		ronDoor.GetComponentInChildren<RonDoorSlot1>().equation = slot1;
+		ronDoor.GetComponentInChildren<RonDoorSlot2>().operator_sign = slot2;
+		ronDoor.GetComponentInChildren<RonDoorSlot3>().result = slot3;
 		ronDoor.GetComponentInChildren<Position>().x = gridX;
 		ronDoor.GetComponentInChildren<Position>().y = gridY;
 		ronDoor.GetComponentInChildren<Direction>().direction = orientation;

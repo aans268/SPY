@@ -231,8 +231,14 @@ public class EditorGridSystem : FSystem
 						position = getPositionFromXElement(child);
 						orientation = (Direction.Dir)int.Parse(child.Attributes.GetNamedItem("direction").Value);
 						setTile(position.Item1, position.Item2, Cell.RonDoor, orientation);
-						string slotId = child.Attributes.GetNamedItem("slotId").Value;
-						((RonDoor)paintableGrid.floorObjects[position]).slot = slotId;
+						string slot1 = child.Attributes.GetNamedItem("equation").Value;
+						string slot2 = child.Attributes.GetNamedItem("operator_sign").Value;
+						string slot3 = child.Attributes.GetNamedItem("result").Value;
+						((RonDoor)paintableGrid.floorObjects[position]).equation = slot1;
+						
+						((RonDoor)paintableGrid.floorObjects[position]).operator_sign = slot2;
+						
+						((RonDoor)paintableGrid.floorObjects[position]).result = int.Parse(slot3);
 					}
 					catch
 					{
@@ -478,11 +484,14 @@ public class Door : FloorObject
 
 public class RonDoor : FloorObject
 {
-	public string slot;
+	public string equation;
+	public string operator_sign;
+	public int result;
 
 	public RonDoor(Direction.Dir orientation, int line, int col) : base(Cell.RonDoor, orientation, line, col)
 	{
-		this.slot = "0";
+		this.equation = "0 + RON * 0 ";
+		this.result = 0;
 	}
 }
 

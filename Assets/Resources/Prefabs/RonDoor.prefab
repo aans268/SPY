@@ -341,9 +341,11 @@ GameObject:
   - component: {fileID: 1732224171541091619}
   - component: {fileID: 9084235272694279116}
   - component: {fileID: 7855201755827383470}
-  - component: {fileID: 2594564811779980276}
   - component: {fileID: 6334514943062841672}
   - component: {fileID: 823064941986653512}
+  - component: {fileID: 1989338960652178339}
+  - component: {fileID: 70328325652137344}
+  - component: {fileID: 1146731377210335011}
   - component: {fileID: 5784465783275252092}
   m_Layer: 8
   m_Name: Door
@@ -455,19 +457,6 @@ MonoBehaviour:
   y: 0
   targetX: -1
   targetY: -1
---- !u!114 &2594564811779980276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6293387629174268916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0ff65b65f622d84ab6ec07f64bb1718, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slotID: 0
 --- !u!114 &6334514943062841672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -494,6 +483,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: "Trouve un terminal pour<br>me d\xE9sactiver !"
+--- !u!114 &1989338960652178339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293387629174268916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1173d19eaec6d40b20707d1ec6d1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equation: 
+--- !u!114 &70328325652137344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293387629174268916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8dfd0938b4a4949b5334510e7d397f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  operator_sign: 
+--- !u!114 &1146731377210335011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293387629174268916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579b6cb994d0b4545bfcbb070c4af67d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: 0
 --- !u!114 &5784465783275252092
 MonoBehaviour:
   m_ObjectHideFlags: 0

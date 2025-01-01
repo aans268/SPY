@@ -99,6 +99,7 @@ public class TilePopupSystem : FSystem
 					GameObjectManager.setGameObjectState(doorSlotPopup, true);
 					// load data
 					doorSlotPopup.GetComponentInChildren<TMP_InputField>().text = d.slot;
+					
 					break;
 				case RonDoor rd:
 					// enable popups
@@ -108,7 +109,11 @@ public class TilePopupSystem : FSystem
 					GameObjectManager.setGameObjectState(ronDoorSlot3Popup, true);
 
 					// load data
-					//doorSlotPopup.GetComponentInChildren<TMP_InputField>().text = d.slot;
+					ronDoorSlot1Popup.GetComponentInChildren<TMP_InputField>().text = rd.equation;
+					ronDoorSlot2Popup.GetComponentInChildren<TMP_Dropdown>().value = rd.operator_sign;
+					ronDoorSlot3Popup.GetComponentInChildren<TMP_InputField>().text = (rd.result).ToString();
+
+					//Debug.Log(rd);
 					break;
 				case Console c:
 					// enable popups
