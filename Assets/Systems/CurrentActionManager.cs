@@ -277,6 +277,14 @@ public class CurrentActionManager : FSystem
 							ifok = false;
 							break;
 						}
+					foreach (GameObject ronDoor in f_ronDoor)
+						if (ronDoor.GetComponent<Position>().x == agent.GetComponent<Position>().x + vec.x &&
+						ronDoor.GetComponent<Position>().y == agent.GetComponent<Position>().y + vec.y)
+						{
+							ifok = true;
+							break;
+						}
+				break;
 				}
 				break;
 			case "FieldGate": // doors
