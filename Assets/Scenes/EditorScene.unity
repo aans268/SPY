@@ -230,7 +230,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2049420947}
         m_TargetAssemblyTypeName: TilePopupSystem_wrapper, Assembly-CSharp
-        m_MethodName: popupFurnitureDropDown
+        m_MethodName: popupRonDoorSlot2
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15000,7 +15000,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2049420947}
         m_TargetAssemblyTypeName: TilePopupSystem_wrapper, Assembly-CSharp
-        m_MethodName: popupDoorSlot
+        m_MethodName: popupRonDoorSlot1
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19189,8 +19189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a851999ad524fd640a3b2ec45d400d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: "Cette section permet de d\xE9finir l'\xE9l\xE9ment<br>de d\xE9cors \xE0
-    int\xE9grer sur la carte"
+  text: "Cette section permet de d\xE9finir l'op\xE9rateur"
 --- !u!114 &1295977618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24642,7 +24641,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2049420947}
         m_TargetAssemblyTypeName: TilePopupSystem_wrapper, Assembly-CSharp
-        m_MethodName: popupDoorSlot
+        m_MethodName: popupRonDoorSlot3
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
