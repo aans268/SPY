@@ -2810,7 +2810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 021a69f0acdb90c4baffc4960b8216c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelGO: {fileID: 0}
+  LevelGO: {fileID: 983595703}
 --- !u!1 &369729339
 GameObject:
   m_ObjectHideFlags: 0

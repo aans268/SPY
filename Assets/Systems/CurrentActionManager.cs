@@ -295,8 +295,6 @@ public class CurrentActionManager : FSystem
 						ifok = true;
 						break;
 					}
-				break;
-			case "RonDoor": // ronDoors
 				foreach (GameObject ronDoor in f_ronDoor)
 					if (ronDoor.GetComponent<Position>().x == agent.GetComponent<Position>().x + vec.x &&
 					 ronDoor.GetComponent<Position>().y == agent.GetComponent<Position>().y + vec.y)
@@ -305,6 +303,15 @@ public class CurrentActionManager : FSystem
 						break;
 					}
 				break;
+			// case "RonDoor": // ronDoors
+			// 	foreach (GameObject ronDoor in f_ronDoor)
+			// 		if (ronDoor.GetComponent<Position>().x == agent.GetComponent<Position>().x + vec.x &&
+			// 		 ronDoor.GetComponent<Position>().y == agent.GetComponent<Position>().y + vec.y)
+			// 		{
+			// 			ifok = true;
+			// 			break;
+			// 		}
+			// 	break;
 			case "Enemy": // enemies
 				foreach (GameObject drone in f_drone)
 					if (drone.GetComponent<Position>().x == agent.GetComponent<Position>().x + vec.x &&
