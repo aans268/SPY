@@ -2105,6 +2105,7 @@ GameObject:
   - component: {fileID: 361349246}
   - component: {fileID: 361349247}
   - component: {fileID: 361349248}
+  - component: {fileID: 361349249}
   m_Layer: 0
   m_Name: Main_Loop
   m_TagString: Untagged
@@ -2390,6 +2391,10 @@ MonoBehaviour:
   - _typeAssemblyQualifiedName: RonManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
     _typeFullName: RonManager
+    _pause: 0
+  - _typeAssemblyQualifiedName: RonDoorSystem, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    _typeFullName: RonDoorSystem
     _pause: 0
   _lateUpdateSystemDescriptions:
   - _typeAssemblyQualifiedName: HighLightSystem, Assembly-CSharp, Version=0.0.0.0,
@@ -2793,6 +2798,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0127e7ecd9faa40c78c36c3f95aeda31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &361349249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361349215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021a69f0acdb90c4baffc4960b8216c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelGO: {fileID: 0}
 --- !u!1 &369729339
 GameObject:
   m_ObjectHideFlags: 0
@@ -8606,7 +8624,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15.55
+  m_fontSize: 15.65
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1

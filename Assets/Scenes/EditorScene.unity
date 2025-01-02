@@ -31661,6 +31661,7 @@ GameObject:
   - component: {fileID: 2049420948}
   - component: {fileID: 2049420958}
   - component: {fileID: 2049420959}
+  - component: {fileID: 2049420960}
   m_Layer: 0
   m_Name: Main_Loop
   m_TagString: Untagged
@@ -31753,6 +31754,10 @@ MonoBehaviour:
   - _typeAssemblyQualifiedName: SettingsManager, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
     _typeFullName: SettingsManager
+    _pause: 0
+  - _typeAssemblyQualifiedName: RonDoorSystem, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    _typeFullName: RonDoorSystem
     _pause: 0
   _lateUpdateSystemDescriptions: []
   _forceUpdateInspector: 0
@@ -32040,6 +32045,19 @@ MonoBehaviour:
   - {fileID: 1539635105}
   - {fileID: 1071398013}
   - {fileID: 306145203}
+--- !u!114 &2049420960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049420941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021a69f0acdb90c4baffc4960b8216c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelGO: {fileID: 0}
 --- !u!1 &2072759087
 GameObject:
   m_ObjectHideFlags: 0

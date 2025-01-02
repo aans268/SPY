@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using FYFY;
+using System;
+using System.Data;
 
 
 public class RonDoorSystem : FSystem
@@ -25,13 +27,41 @@ public class RonDoorSystem : FSystem
     {
         foreach (GameObject ronDoor in f_ronDoor)
         {
-            this_equation= ronDoor_equations[ronDoor];
-            //on récupère le string : "2 * RON + 3<12"
+            // Vérifier si l'objet 'ronDoor' existe déjà dans le dictionnaire
+            if (ronDoor_equations.ContainsKey(ronDoor))
+            {
+                string this_equation = ronDoor_equations[ronDoor];
+                //on récupère le string : "2 * RON + 3<12"
 
-            this_equation = this_equation.Replace("RON", gameData.totalRon.ToString());
+                this_equation = this_equation.Replace("RON", gameData.totalRon.ToString());
+                try
+                {
+                    // Évaluer l'expression
+                    bool result = EvaluateExpression(this_equation);
 
-
+                    Debug.Log($"L'expression '{this_equation}' est {result}");
+                }
+                catch (Exception ex)
+                {
+                    Debug.Log($"Erreur lors de l'évaluation : {ex.Message}");
+                }
+            }
+            else
+            {
+                Debug.LogWarning($"La clé pour le GameObject '{ronDoor.name}' n'a pas été trouvée dans le dictionnaire.");
+            }
         }
+    }
+
+
+     static bool EvaluateExpression(string expression)
+    {
+        // Utiliser DataTable pour évaluer l'expression
+        DataTable table = new DataTable();
+        object result = table.Compute(expression, "");
+
+        // Convertir le résultat en booléen
+        return Convert.ToBoolean(result);
     }
 
     private void createRonDoorEquation()
@@ -44,7 +74,7 @@ public class RonDoorSystem : FSystem
             int this_slot3 = ronDoor.GetComponent<RonDoorSlot3>().result;
             string this_full_equation= this_slot1+this_slot2+this_slot3.ToString();
             ronDoor_equations.Add(ronDoor,this_full_equation);
-            Debug.Log("AKKKKKKKKKKKKKKKKKKKKKKKK     "+ronDoor_equations);
+            //Debug.Log("AKKKKKKKKKKKKKKKKKKKKKKKK     "+ronDoor_equations);
         }
     }
 }
