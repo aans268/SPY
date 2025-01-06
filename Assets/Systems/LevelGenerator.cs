@@ -416,6 +416,7 @@ public class LevelGenerator : FSystem {
 		GameObject ron = GameObject.Instantiate<GameObject>(Resources.Load ("Prefabs/Ron") as GameObject, LevelGO.transform.position + new Vector3(gridY*3,3,gridX*3), Quaternion.Euler(90,0,0), LevelGO.transform);
 		ron.GetComponent<Position>().x = gridX;
 		ron.GetComponent<Position>().y = gridY;
+		//ron.GetComponent<MeshRenderer>().materials[0].color = Color.blue;
 		GameObjectManager.bind(ron);
 	}
 
