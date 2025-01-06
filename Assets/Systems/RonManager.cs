@@ -3,6 +3,7 @@ using FYFY;
 using System.Collections;
 using FYFY_plugins.TriggerManager;
 using UnityEngine.Localization.SmartFormat.Utilities;
+using TMPro;
 
 
 
@@ -18,6 +19,8 @@ public class RonManager : FSystem
 
 	private GameData gameData;
     private bool activeRon;
+
+	public TMP_Text ronText;
 
 	protected override void onStart()
     {
@@ -39,6 +42,7 @@ public class RonManager : FSystem
                 if(target.CompareTag("1Ron")){
 					gameData.totalRon += target.GetComponent<RonValue>().value;
 					Debug.Log("gamedata ron : "+gameData.totalRon);
+					ronText.text = "Valeur totale des Rons collectés : " + gameData.totalRon.ToString();
 					//target.GetComponent<AudioSource>().Play();
 					//Debug.Log("gamedata ron : "+gameData.totalRon);
                     //target.GetComponent<AudioSource>().Play();
