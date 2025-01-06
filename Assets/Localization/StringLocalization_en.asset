@@ -981,7 +981,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 15915799532617728
-    m_Localized: Create a ron
+    m_Localized: Create a coin
     m_Metadata:
       m_Items: []
   - m_Id: 15915864850513920
@@ -1278,7 +1278,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 18085240219451392
-    m_Localized: 1Ron
+    m_Localized: Coin
     m_Metadata:
       m_Items: []
   - m_Id: 18085266488377344
@@ -1398,6 +1398,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 164566232577122304
     m_Localized: Debriefing (Defeat)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193484173484220416
+    m_Localized: Ron
     m_Metadata:
       m_Items: []
   references:

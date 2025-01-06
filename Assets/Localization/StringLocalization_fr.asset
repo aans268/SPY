@@ -1291,11 +1291,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 18085207671652352
-    m_Localized: RonDoor
+    m_Localized: Door
     m_Metadata:
       m_Items: []
   - m_Id: 18085240219451392
-    m_Localized: Ron
+    m_Localized: "Pi\xE8ce"
     m_Metadata:
       m_Items: []
   - m_Id: 18085266488377344
@@ -1419,6 +1419,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 164566232577122304
     m_Localized: "Debriefing (D\xE9faite)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193484173484220416
+    m_Localized: 1 ron
     m_Metadata:
       m_Items: []
   references:

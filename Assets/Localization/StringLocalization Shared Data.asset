@@ -1460,6 +1460,11 @@ MonoBehaviour:
       1
     m_Metadata:
       m_Items: []
+  - m_Id: 193484173484220416
+    m_Key: EditorScene/MapEditorCanvas/ObjectPanel/Viewport/Content/1Ron/Text (TMP)
+      (4)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
