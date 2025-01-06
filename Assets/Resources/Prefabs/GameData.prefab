@@ -54,11 +54,12 @@ MonoBehaviour:
   totalActionBlocUsed: 0
   totalExecute: 0
   totalCoin: 0
+  totalRon: 0
   actionsHistory: {fileID: 0}
   gameSpeed_default: 1
   gameSpeed_current: 1
   dragDropEnabled: 1
-  sendStatementEnabled: 1
+  sendStatementEnabled: 0
   localization:
   - 
   - Ok

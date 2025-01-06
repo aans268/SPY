@@ -572,7 +572,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 25040024555520
-    m_Localized: Find a terminal to<br>disable me!
+    m_Localized: '#operator'
     m_Metadata:
       m_Items: []
   - m_Id: 25222476779520
