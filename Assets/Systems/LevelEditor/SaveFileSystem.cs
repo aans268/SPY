@@ -248,6 +248,9 @@ public class SaveFileSystem : FSystem
 				case RonDoor rd:
 					levelExport += "\t<ronDoor posX=\"" + (rd.col+1 - minCol) + "\" posY=\"" + (rd.line+ 1 - minLine) + "\" equation=\""+ rd.equation+ "\" operator_sign=\""+ rd.operator_sign+ "\" result=\""+ rd.result + "\" direction=\""+ (int)rd.orientation + "\" />\n\n";
 					break;
+				case Ron r:
+					levelExport += "\t<ron posX=\"" + (r.col+1 - minCol) + "\" posY=\"" + (r.line+ 1 - minLine) + "\" value=\""+ r.value + "\" />\n\n";
+					break;
 				case PlayerRobot pr:
 					levelExport += "\t<player inputLine=\""+ pr.inputLine + "\" posX=\"" + (pr.col + 1 - minCol) + "\" posY=\"" + (pr.line + 1 - minLine) + "\" direction=\"" + (int)pr.orientation + "\" />\n\n";
 					break;
@@ -264,11 +267,11 @@ public class SaveFileSystem : FSystem
 						levelExport += "\t<coin posX=\"" + (fo.col + 1 - minCol) + "\" posY=\"" + (fo.line + 1 - minLine) + "\" />\n\n";
 						break;
 					}
-					if (fo.type == Cell.Ron)
-					{
-						levelExport += "\t<ron posX=\"" + (fo.col + 1 - minCol) + "\" posY=\"" + (fo.line + 1 - minLine) + "\" />\n\n";
-						break;
-					}
+					// if (fo.type == Cell.Ron)
+					// {
+					// 	levelExport += "\t<ron posX=\"" + (fo.col + 1 - minCol) + "\" posY=\"" + (fo.line + 1 - minLine) + "\" />\n\n";
+					// 	break;
+					// }
 					else
 					{
 						Debug.Log("Unexpected floor object type, object ignored: " + fo.type);

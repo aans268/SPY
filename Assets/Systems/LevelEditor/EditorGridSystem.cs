@@ -181,7 +181,10 @@ public class EditorGridSystem : FSystem
 					{
 						int posCol = int.Parse(child.Attributes.GetNamedItem("posX").Value);
 						int posLig = int.Parse(child.Attributes.GetNamedItem("posY").Value);
+						int ronValue = int.Parse(child.Attributes.GetNamedItem("value").Value);
 						setTile(posLig, posCol, Cell.Ron);
+
+						((Ron)paintableGrid.floorObjects[new Tuple<int, int>(posLig, posCol)]).value = ronValue;
 					}
 					catch
 					{
@@ -334,7 +337,7 @@ public class EditorGridSystem : FSystem
 						Cell.RonDoor => new RonDoor(rotation, line, col),
 						Cell.Console => new Console(rotation, line, col),
 						Cell.Coin => new FloorObject(Cell.Coin, Direction.Dir.North, line, col, false, false),
-						Cell.Ron => new FloorObject(Cell.Ron, Direction.Dir.North, line, col, false, false),
+						Cell.Ron => new Ron(line, col),
 
 						_ => null
 					};
@@ -493,6 +496,16 @@ public class RonDoor : FloorObject
 		this.equation = "0 + RON * 0 ";
 		this.operator_sign = "=";
 		this.result = 0;
+	}
+}
+
+public class Ron : FloorObject
+{
+	public int value;
+
+    public Ron(int line, int col) : base(Cell.Ron, Direction.Dir.North, line, col)
+	{
+		this.value = 1;
 	}
 }
 

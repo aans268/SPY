@@ -2,6 +2,7 @@ using UnityEngine;
 using FYFY;
 using System.Collections;
 using FYFY_plugins.TriggerManager;
+using UnityEngine.Localization.SmartFormat.Utilities;
 
 
 
@@ -36,7 +37,9 @@ public class RonManager : FSystem
 			foreach(GameObject target in trigger.Targets){
 				//Check if the player collide with a coin
                 if(target.CompareTag("1Ron")){
-                    gameData.totalRon++;
+					gameData.totalRon += target.GetComponent<RonValue>().value;
+					Debug.Log("gamedata ron : "+gameData.totalRon);
+					//target.GetComponent<AudioSource>().Play();
 					//Debug.Log("gamedata ron : "+gameData.totalRon);
                     //target.GetComponent<AudioSource>().Play();
 					target.GetComponent<Collider>().enabled = false;

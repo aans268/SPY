@@ -11,6 +11,7 @@ public class TilePopupSystem_wrapper : BaseWrapper
 	public UnityEngine.GameObject ronDoorSlot1Popup;
 	public UnityEngine.GameObject ronDoorSlot2Popup;
 	public UnityEngine.GameObject ronDoorSlot3Popup;
+	public UnityEngine.GameObject ronValuePopup;
 	public UnityEngine.GameObject furniturePopup;
 	public PaintableGrid paintableGrid;
 	public UnityEngine.GameObject selection;
@@ -25,6 +26,7 @@ public class TilePopupSystem_wrapper : BaseWrapper
 		MainLoop.initAppropriateSystemField (system, "ronDoorSlot1Popup", ronDoorSlot1Popup);
 		MainLoop.initAppropriateSystemField (system, "ronDoorSlot2Popup", ronDoorSlot2Popup);
 		MainLoop.initAppropriateSystemField (system, "ronDoorSlot3Popup", ronDoorSlot3Popup);
+		MainLoop.initAppropriateSystemField (system, "ronValuePopup", ronValuePopup);
 		MainLoop.initAppropriateSystemField (system, "furniturePopup", furniturePopup);
 		MainLoop.initAppropriateSystemField (system, "paintableGrid", paintableGrid);
 		MainLoop.initAppropriateSystemField (system, "selection", selection);
@@ -78,6 +80,11 @@ public class TilePopupSystem_wrapper : BaseWrapper
 	public void popupRonDoorSlot3(System.String newData)
 	{
 		MainLoop.callAppropriateSystemMethod (system, "popupRonDoorSlot3", newData);
+	}
+
+	public void popupRonValue(System.Int32 newData)
+	{
+		MainLoop.callAppropriateSystemMethod (system, "popupRonValue", newData);
 	}
 
 	public void popupFurnitureDropDown(System.Int32 newData)

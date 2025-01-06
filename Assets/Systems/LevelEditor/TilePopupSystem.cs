@@ -24,6 +24,7 @@ public class TilePopupSystem : FSystem
 	public GameObject ronDoorSlot2Popup;
 	public GameObject ronDoorSlot3Popup;
 
+	public GameObject ronValuePopup;
 	public GameObject furniturePopup;
 
 	public PaintableGrid paintableGrid;
@@ -36,6 +37,7 @@ public class TilePopupSystem : FSystem
 
 	private List<string> furnitureNameToPath = new List<string>();
 	private List<string> operator_sign_index = new List<string> { "=", "!=", "<", "<=", ">", ">=" };
+	private List<int> ronValues = new List<int> { 1, 2, 3 };
 
 	public TilePopupSystem()
 	{
@@ -116,6 +118,14 @@ public class TilePopupSystem : FSystem
 
 					//Debug.Log(rd);
 					break;
+
+				case Ron r:
+					// enable popups
+					GameObjectManager.setGameObjectState(ronValuePopup, true);
+					// load data
+					ronValuePopup.GetComponentInChildren<TMP_Dropdown>().value = ronValues.IndexOf(r.value);
+					break;
+
 				case Console c:
 					// enable popups
 					GameObjectManager.setGameObjectState(orientationPopup, true);
@@ -270,7 +280,11 @@ public class TilePopupSystem : FSystem
 			((RonDoor)selectedObject).result = int.TryParse(newData, out int x) ? x : 0;
 	}
 	
-
+	public void popupRonValue(int newData)
+	{
+		if (selectedObject != null)
+			((Ron)selectedObject).value = ronValues[newData];
+	}
 
 	// see furniturePopup GameObject childs
 	public void popupFurnitureDropDown(int newData)

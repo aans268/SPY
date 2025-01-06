@@ -114,6 +114,7 @@ GameObject:
   - component: {fileID: 490913905107958832}
   - component: {fileID: 5879434370232383199}
   - component: {fileID: 786232015339670432}
+  - component: {fileID: 7092258675242730392}
   m_Layer: 8
   m_Name: Ron
   m_TagString: 1Ron
@@ -5208,6 +5209,19 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &7092258675242730392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8004794425240735006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6764188d1354d748befe7620bdffd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: 0
 --- !u!1 &8183060837076320008
 GameObject:
   m_ObjectHideFlags: 0

@@ -130,7 +130,7 @@ public class LevelGenerator : FSystem {
 					createCoin(int.Parse(child.Attributes.GetNamedItem("posX").Value), int.Parse(child.Attributes.GetNamedItem("posY").Value));
 					break;
 				case "ron":
-					createRon(int.Parse(child.Attributes.GetNamedItem("posX").Value), int.Parse(child.Attributes.GetNamedItem("posY").Value));
+					createRon(int.Parse(child.Attributes.GetNamedItem("posX").Value), int.Parse(child.Attributes.GetNamedItem("posY").Value), int.Parse(child.Attributes.GetNamedItem("value").Value));
 					break;
 				case "console":
 					readXMLConsole(child);
@@ -412,10 +412,22 @@ public class LevelGenerator : FSystem {
 		GameObjectManager.bind(coin);
 	}
 
-	private void createRon(int gridX, int gridY){
+	private void createRon(int gridX, int gridY, int value){
 		GameObject ron = GameObject.Instantiate<GameObject>(Resources.Load ("Prefabs/Ron") as GameObject, LevelGO.transform.position + new Vector3(gridY*3,3,gridX*3), Quaternion.Euler(90,0,0), LevelGO.transform);
 		ron.GetComponent<Position>().x = gridX;
 		ron.GetComponent<Position>().y = gridY;
+		ron.GetComponent<RonValue>().value = value;
+		switch (value){
+			case 1:
+				ron.GetComponent<MeshRenderer>().materials[0].color = Color.red;
+				break;
+			case 2:
+				ron.GetComponent<MeshRenderer>().materials[0].color = Color.green;
+				break;
+			case 3:
+				ron.GetComponent<MeshRenderer>().materials[0].color = Color.yellow;
+				break;
+		}
 		//ron.GetComponent<MeshRenderer>().materials[0].color = Color.blue;
 		GameObjectManager.bind(ron);
 	}
