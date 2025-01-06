@@ -33,6 +33,10 @@ public class LevelGenerator : FSystem {
 	public TMP_Text levelName;
 	public GameObject buttonExecute;
 
+	public Material ronMaterial1;
+	public Material ronMaterial2;
+	public Material ronMaterial3;
+
 	[DllImport("__Internal")]
 	private static extern void HideHtmlButtons(); // call javascript
 
@@ -419,12 +423,15 @@ public class LevelGenerator : FSystem {
 		ron.GetComponent<RonValue>().value = value;
 		switch (value){
 			case 1:
+				ron.GetComponent<MeshRenderer>().materials = new Material[] { ronMaterial1 };
 				ron.GetComponent<MeshRenderer>().materials[0].color = Color.red;
 				break;
 			case 2:
+				ron.GetComponent<MeshRenderer>().materials = new Material[] { ronMaterial2 };
 				ron.GetComponent<MeshRenderer>().materials[0].color = Color.green;
 				break;
 			case 3:
+				ron.GetComponent<MeshRenderer>().materials = new Material[] { ronMaterial3 };
 				ron.GetComponent<MeshRenderer>().materials[0].color = Color.yellow;
 				break;
 		}

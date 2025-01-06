@@ -2319,6 +2319,9 @@ MonoBehaviour:
   library: {fileID: 1962555724}
   levelName: {fileID: 278433493}
   buttonExecute: {fileID: 1504297949}
+  ronMaterial1: {fileID: 2100000, guid: 079d0c777797b4ef6966a11d9c236519, type: 2}
+  ronMaterial2: {fileID: 2100000, guid: 65a1dbc703ea74ae88a8e9260748509d, type: 2}
+  ronMaterial3: {fileID: 2100000, guid: 0f57c3bd1e2dd46b18eaea514850f98b, type: 2}
 --- !u!114 &361349221
 MonoBehaviour:
   m_ObjectHideFlags: 0
