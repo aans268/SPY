@@ -1,0 +1,1503 @@
+fileFormatVersion: 2
+guid: e0c47674a5bd4cb43a7f1e87b861f1f5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dedf2ff7d110b540bbbff2435378087
+      internalID: -1618359015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae28540ec3927646a8b05616aec9ef3
+      internalID: 1513074848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e827e2e2564c14408c92655151c2f51
+      internalID: 385636563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f8708f1a089634c88b2011a9b0d3fa
+      internalID: 1059388650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943b5f8e6e94d5248a603bcd41578f06
+      internalID: -2037148281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b3e52f6d16a32459e8de7e4085dafb
+      internalID: -1834643149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ab299bde3222b4bade1ef5b3cb4723
+      internalID: 987369053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_7
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea17d3c3c08e2a4388e84610f07f5ea
+      internalID: 85282261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_8
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01fc73c321280e449d45a4d1cdb0944
+      internalID: 441575076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_9
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f99c596b4403e841b2f359cfbd940ea
+      internalID: 1639964356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_10
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0408bdb64075cf04fa6a0497ff1119f6
+      internalID: 1210127200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_11
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e36c5b8ac1539145b4d622ed26e5936
+      internalID: -1345952961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_12
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9948fa5bed403d48a751109d42bce5f
+      internalID: 1268970321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_13
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227aa5ac83880f146b5b554c3cc945c4
+      internalID: -2043142657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_14
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 768
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fc3df02419d3247a92667a95f5970f
+      internalID: 1558088517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511528fa51926a644bf00991a54bc43c
+      internalID: -1691949222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_16
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747b3e0db61cd2440b7dab520683bc38
+      internalID: -415215008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b9a5a8a52bf81419baea333bde2c60
+      internalID: -307885715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_18
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29e5a600beaee243ae36f379dffa297
+      internalID: -1134065257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_19
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6f9275287ca2545897343964116266
+      internalID: 1624067100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_20
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4822775d982a008408569f0f9ca21992
+      internalID: 2038774540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_21
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e645bcd103167540bb5975a98cca39c
+      internalID: 1067191588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_22
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a90b681806c0d42bf3c84b7bbb5c9a
+      internalID: 810991306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_23
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ebd10bd6636a24b8dddf5350d8b463
+      internalID: 1806146108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_24
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c091057b3262c5245adbacbe62b986ff
+      internalID: 974912440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_25
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e95c1a7a945e9429801611bf7d6514
+      internalID: 1850120002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_26
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80706773b09e7e46b4063861a80384b
+      internalID: 299487029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_27
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ea0389a5d114b4ab91d7c29471ae99
+      internalID: 1783936724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_28
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2ead02c8074fb4191fc0d32d1a3512
+      internalID: 1881945883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_29
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 512
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa07da7d99c67754c80a10c6800caf8f
+      internalID: 667798239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ab1765ebba1e848ba8cfde9950be4a
+      internalID: -2036786449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_31
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65e1bc6979fd3a48bef8e66ade28fac
+      internalID: -817467144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_32
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70829d4ebeb7b6b4198cb7b42462f3c3
+      internalID: -127802961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_33
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742abf52fb301de4c84eedd721b7648e
+      internalID: -1619887894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cc68eae0188304abb649263fab53f2
+      internalID: 864205807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_35
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df09f83a7e42b3545bb53e6b4148be09
+      internalID: 98154083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_36
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d984529e60bae164db69893cff269e65
+      internalID: -1204760567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_37
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2c1849fb7247f499c6bf7563cab74f
+      internalID: -736504377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_38
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf517e5fe32f6340839f9b082e521e9
+      internalID: 165931326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_39
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b985c21189e9584dbf8a0c967903bed
+      internalID: 565620555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_40
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38364cb907ac1864590a17d4c9aea469
+      internalID: -2064571398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_41
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4737a6580e8d0f4bbd5979547a6fe6f
+      internalID: -1707925113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_42
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaf44b216a7fcd4fbf4482809b0eef2
+      internalID: -1803361932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_43
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304c2598de3d790448f54f24c0543384
+      internalID: -903899262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_44
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 256
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cc465b455716a4d95554c548ba82b4
+      internalID: -109530991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffbb4efed586c74ab6d28ebc8ab00e0
+      internalID: -415461105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e847d39d82750d54bb79d7c7303e100d
+      internalID: 952383386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_47
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd17475befcce04abacb079fc21afca
+      internalID: -2115816124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_48
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc9c8f2b91cc444ba73dc1fdcc47616
+      internalID: -2013979603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_49
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad3d1b104da9a347972f9327c51fd43
+      internalID: 665221592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_50
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8d738d701a3364da2699ab7b458919
+      internalID: 200694369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_51
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce24529bc2940c24bb063c21ee4e3074
+      internalID: -1175413183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_52
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbfc66b3c3d6bf4d80a633365840c76
+      internalID: 795075240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_53
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e190325a06fc62b469b6bdc031bc0d5d
+      internalID: 836415179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_54
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c37c12a7d32cf43a49dbfcf8647de7
+      internalID: 519664031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_55
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b835c0647c1eb2f42a8a581c40ee02d1
+      internalID: -1126305914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_56
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96883192b29a4334aacddfe2e508951a
+      internalID: -324365950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_57
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5d9cca84392de40b741782035fb0f4
+      internalID: -709248480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_58
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcecd3a372a413448367bf0051f6cbe
+      internalID: 631056279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallFlame01-temperature_16x4_59
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 0
+        width: 136.53334
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe1048c3632b5d41b295ef8015185b3
+      internalID: 184642912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 656d9fe24a7b27c4fbe4b4e298e0514b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SmallFlame01-temperature_16x4_10: 1210127200
+      SmallFlame01-temperature_16x4_22: 810991306
+      SmallFlame01-temperature_16x4_55: -1126305914
+      SmallFlame01-temperature_16x4_50: 200694369
+      SmallFlame01-temperature_16x4_44: -109530991
+      SmallFlame01-temperature_16x4_9: 1639964356
+      SmallFlame01-temperature_16x4_16: -415215008
+      SmallFlame01-temperature_16x4_27: 1783936724
+      SmallFlame01-temperature_16x4_56: -324365950
+      SmallFlame01-temperature_16x4_20: 2038774540
+      SmallFlame01-temperature_16x4_41: -1707925113
+      SmallFlame01-temperature_16x4_45: -415461105
+      SmallFlame01-temperature_16x4_5: -1834643149
+      SmallFlame01-temperature_16x4_4: -2037148281
+      SmallFlame01-temperature_16x4_8: 441575076
+      SmallFlame01-temperature_16x4_7: 85282261
+      SmallFlame01-temperature_16x4_29: 667798239
+      SmallFlame01-temperature_16x4_51: -1175413183
+      SmallFlame01-temperature_16x4_57: -709248480
+      SmallFlame01-temperature_16x4_18: -1134065257
+      SmallFlame01-temperature_16x4_47: -2115816124
+      SmallFlame01-temperature_16x4_28: 1881945883
+      SmallFlame01-temperature_16x4_34: 864205807
+      SmallFlame01-temperature_16x4_53: 836415179
+      SmallFlame01-temperature_16x4_23: 1806146108
+      SmallFlame01-temperature_16x4_12: 1268970321
+      SmallFlame01-temperature_16x4_32: -127802961
+      SmallFlame01-temperature_16x4_36: -1204760567
+      SmallFlame01-temperature_16x4_25: 1850120002
+      SmallFlame01-temperature_16x4_46: 952383386
+      SmallFlame01-temperature_16x4_19: 1624067100
+      SmallFlame01-temperature_16x4_52: 795075240
+      SmallFlame01-temperature_16x4_33: -1619887894
+      SmallFlame01-temperature_16x4_26: 299487029
+      SmallFlame01-temperature_16x4_11: -1345952961
+      SmallFlame01-temperature_16x4_6: 987369053
+      SmallFlame01-temperature_16x4_48: -2013979603
+      SmallFlame01-temperature_16x4_14: 1558088517
+      SmallFlame01-temperature_16x4_13: -2043142657
+      SmallFlame01-temperature_16x4_17: -307885715
+      SmallFlame01-temperature_16x4_39: 565620555
+      SmallFlame01-temperature_16x4_24: 974912440
+      SmallFlame01-temperature_16x4_49: 665221592
+      SmallFlame01-temperature_16x4_3: 1059388650
+      SmallFlame01-temperature_16x4_58: 631056279
+      SmallFlame01-temperature_16x4_1: 1513074848
+      SmallFlame01-temperature_16x4_43: -903899262
+      SmallFlame01-temperature_16x4_42: -1803361932
+      SmallFlame01-temperature_16x4_38: 165931326
+      SmallFlame01-temperature_16x4_59: 184642912
+      SmallFlame01-temperature_16x4_37: -736504377
+      SmallFlame01-temperature_16x4_54: 519664031
+      SmallFlame01-temperature_16x4_40: -2064571398
+      SmallFlame01-temperature_16x4_30: -2036786449
+      SmallFlame01-temperature_16x4_0: -1618359015
+      SmallFlame01-temperature_16x4_35: 98154083
+      SmallFlame01-temperature_16x4_15: -1691949222
+      SmallFlame01-temperature_16x4_31: -817467144
+      SmallFlame01-temperature_16x4_21: 1067191588
+      SmallFlame01-temperature_16x4_2: 385636563
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

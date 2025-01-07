@@ -1,0 +1,1943 @@
+fileFormatVersion: 2
+guid: 91157e7a87315c04f97657c473ebc12a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c6bdf8a3a84342a91464cf69c26e6
+      internalID: 720549847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af02efc39d878c54880cd21f69778472
+      internalID: -198597587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a855b44e017477e4ea220968ace7c506
+      internalID: 291573950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243e2a16275b59547b5a8cf8bd2bf700
+      internalID: 721989096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f20152776fde7340a5122b21509c877
+      internalID: -61773692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fa6632187e41f4d927f83d042f3cac
+      internalID: 25947533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829b8254bb8fd5b4abb4ff541be0ec1a
+      internalID: 83801720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4708e87369dec341a34fca49e176e3a
+      internalID: 730832558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b964e9fc7b91724bada08ec4b06c4a5
+      internalID: -470225068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0f7a4e3eb590e4d86d81be02a6395c
+      internalID: -806511912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e580974eec3fad40b1821391ec0ccf7
+      internalID: 417573986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbb17ec2eb314a48a4dfcd450ad439a
+      internalID: 599026844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77b90cbeac5a2348b44cd8b7aeb0f58
+      internalID: -1832359043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e063e1de30953488205cf850738d91
+      internalID: 1213041152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538f0e40035a73943a406837919cc4ec
+      internalID: -1996419505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ceaada7b77d4c4b858a9ec6db1bae2
+      internalID: -700239886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6238729dec03d914f8f35b8c7e7f7d10
+      internalID: -1621298684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8291b6441b34a749bf61d16adc44bf5
+      internalID: -1823768204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5598469527224e549878931fc599454c
+      internalID: 166098090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d678e08ac85427240876e50abc3589e0
+      internalID: 1277469830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3785e195938925040b90e1aeaf4ea6d7
+      internalID: 1773582100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a6663e9c9a8dd4dacf5c41cb948fb0
+      internalID: -1177612754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf26a24830e78946a31031f594010c1
+      internalID: -1774466966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27c784378d4f2c4099db55fecfcbe84
+      internalID: 1496324470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9cdafecdcfecf409b32f971009d477
+      internalID: -1357560726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_25
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13092a2160d60c34faf4b9aa59010b5c
+      internalID: -105272379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_26
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e4376fa308ce9418dcae33a11583fe
+      internalID: 1607167563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_27
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99deaf6d43dd514f85b25b0f3663066
+      internalID: 2106536325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81db325801d43744a92b6a52fe1596ac
+      internalID: -1800598395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_29
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0361b2d88dbf36840b865a4847535962
+      internalID: -291080020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_30
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c4eedfde7d52541ad33c95f715523c
+      internalID: -457438369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_31
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793579b31abd18141988e7d00c95f6fd
+      internalID: -1232913865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8cbd34c70863d4998fa73a819f4633
+      internalID: 2122316784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a068b32e717a141b32065690f90d6a
+      internalID: 574189090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016b6c8bea448d8448f531b3cf1ff926
+      internalID: 693393798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8574d76ffa2629b4fb4798747fc7e704
+      internalID: 883434035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e93da22afac93b4ca129be86662f7ee
+      internalID: 345606027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8a5593a4b20ad49b0d8fd386400494
+      internalID: 1000242678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28222ca2a93ae9946a809e049ba2a8b8
+      internalID: 30057431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf08f38e76771045b9b5c64dfd1db4d
+      internalID: 775654366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_40
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c3fd3c68367f84aae3a447e629f5fc
+      internalID: 1423553868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_41
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b4386336e6b2046a873a40167bf6aa
+      internalID: 1349613735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_42
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717e0ddd15659584cbb034cfdd90412e
+      internalID: -1318683541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_43
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f745dfbeceff9a4d8e9b8015ad2c9b5
+      internalID: 2137004992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_44
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97129b66df40ff74491a39352a327dc8
+      internalID: 1090252126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_45
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b09871af36b7942ac88703ae3478ed
+      internalID: 532464500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_46
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a19a41030a68c5499e8432115bddcb8
+      internalID: 1502515542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_47
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2a3a356bfe59f459271bc796945607
+      internalID: 1675933138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a51f8b144a9774a9eeb2e55c626cc6
+      internalID: -960158840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e16f2e9ff4f91d45b6fd70c4b8ad883
+      internalID: 1896828966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228351180a71ee64f923ef08e95b48d4
+      internalID: -1515857033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fff47769ff0a64faa918d479e98fb2
+      internalID: -1164646805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc58412a182303f4ca14ff99eccefcc5
+      internalID: 1480032602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a207022e368d34d9d3070236d27456
+      internalID: -660295191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4852f435e62ab774ca673e4baa5bdcd4
+      internalID: 446502924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc55edaa416776d4a8cfddb84a19307c
+      internalID: -55554274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_56
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a57ea7de22384645bd4bf79251ea3ed
+      internalID: 235672013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_57
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca406862eecbfa348b3e735521f3ed75
+      internalID: -309482632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_58
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3d975af52aece4e8a9abe393300208
+      internalID: -576899080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_59
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cdd73ec3456904d9397b2bf26b9e73
+      internalID: 2116006061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca3be72a5477494cb904b24205e5ea7
+      internalID: -1040221286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_61
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aad2ab508f2a94a8a5bb5be665ef08
+      internalID: 2133960970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_62
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c91258dac0c0347b44a3aacbd02450
+      internalID: 1167034184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_63
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59765becf388d4c45b688540f60451ae
+      internalID: -244300952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf1e142d96355c43958238287a6afb1
+      internalID: 1107389012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c44980c82e494b49b0ada1609a3c418
+      internalID: -1342873300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_66
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c7bbe882880144ca575d73f09a0ecc
+      internalID: 344125219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_67
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0874b47bb65a848ad022adcaf81698
+      internalID: 1302239242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf970bb15a5566479020bf3a491c0de
+      internalID: 1107144927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_69
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bded119698a7536469cfe9bbcbe0b1aa
+      internalID: 252390740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_70
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2557dae3d3ec050499dbe265d5079deb
+      internalID: -496254505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_71
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233ab4a921e3ce5469c288e4d3de8b09
+      internalID: -2018666133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_72
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f87643d92de3c640979db0f7444467b
+      internalID: -691729085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_73
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142676eadb05c904392463cabcaa6bf7
+      internalID: 2141243788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_74
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fbfbf8a54f11745af373f69fc90278
+      internalID: 795641641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_75
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1116251abd9f7c41ba0f8902713e2ab
+      internalID: -309369694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_76
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db03949cbf0d5ba44b85f9a3f40ea932
+      internalID: 1153235513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_77
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b7d2b1f89f8104f8cebb4d333b16e5
+      internalID: 1254720846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_78
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4fe68909de71442adc64b52816fb81
+      internalID: 161329252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame02-temperature_16x4_79
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616cc16720038464488b5d4356387b64
+      internalID: -969089619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e1d9410b10f0ff046975af52f6993eb1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Flame02-temperature_16x4_14: -1996419505
+      Flame02-temperature_16x4_79: -969089619
+      Flame02-temperature_16x4_35: 883434035
+      Flame02-temperature_16x4_17: -1823768204
+      Flame02-temperature_16x4_75: -309369694
+      Flame02-temperature_16x4_12: -1832359043
+      Flame02-temperature_16x4_8: -470225068
+      Flame02-temperature_16x4_36: 345606027
+      Flame02-temperature_16x4_1: -198597587
+      Flame02-temperature_16x4_52: 1480032602
+      Flame02-temperature_16x4_77: 1254720846
+      Flame02-temperature_16x4_60: -1040221286
+      Flame02-temperature_16x4_5: 25947533
+      Flame02-temperature_16x4_23: 1496324470
+      Flame02-temperature_16x4_73: 2141243788
+      Flame02-temperature_16x4_7: 730832558
+      Flame02-temperature_16x4_28: -1800598395
+      Flame02-temperature_16x4_47: 1675933138
+      Flame02-temperature_16x4_22: -1774466966
+      Flame02-temperature_16x4_74: 795641641
+      Flame02-temperature_16x4_42: -1318683541
+      Flame02-temperature_16x4_56: 235672013
+      Flame02-temperature_16x4_66: 344125219
+      Flame02-temperature_16x4_64: 1107389012
+      Flame02-temperature_16x4_67: 1302239242
+      Flame02-temperature_16x4_4: -61773692
+      Flame02-temperature_16x4_34: 693393798
+      Flame02-temperature_16x4_39: 775654366
+      Flame02-temperature_16x4_2: 291573950
+      Flame02-temperature_16x4_13: 1213041152
+      Flame02-temperature_16x4_71: -2018666133
+      Flame02-temperature_16x4_49: 1896828966
+      Flame02-temperature_16x4_29: -291080020
+      Flame02-temperature_16x4_76: 1153235513
+      Flame02-temperature_16x4_70: -496254505
+      Flame02-temperature_16x4_59: 2116006061
+      Flame02-temperature_16x4_69: 252390740
+      Flame02-temperature_16x4_10: 417573986
+      Flame02-temperature_16x4_61: 2133960970
+      Flame02-temperature_16x4_48: -960158840
+      Flame02-temperature_16x4_26: 1607167563
+      Flame02-temperature_16x4_50: -1515857033
+      Flame02-temperature_16x4_31: -1232913865
+      Flame02-temperature_16x4_58: -576899080
+      Flame02-temperature_16x4_20: 1773582100
+      Flame02-temperature_16x4_38: 30057431
+      Flame02-temperature_16x4_62: 1167034184
+      Flame02-temperature_16x4_9: -806511912
+      Flame02-temperature_16x4_45: 532464500
+      Flame02-temperature_16x4_11: 599026844
+      Flame02-temperature_16x4_19: 1277469830
+      Flame02-temperature_16x4_68: 1107144927
+      Flame02-temperature_16x4_44: 1090252126
+      Flame02-temperature_16x4_6: 83801720
+      Flame02-temperature_16x4_0: 720549847
+      Flame02-temperature_16x4_41: 1349613735
+      Flame02-temperature_16x4_15: -700239886
+      Flame02-temperature_16x4_65: -1342873300
+      Flame02-temperature_16x4_21: -1177612754
+      Flame02-temperature_16x4_30: -457438369
+      Flame02-temperature_16x4_24: -1357560726
+      Flame02-temperature_16x4_3: 721989096
+      Flame02-temperature_16x4_25: -105272379
+      Flame02-temperature_16x4_51: -1164646805
+      Flame02-temperature_16x4_18: 166098090
+      Flame02-temperature_16x4_16: -1621298684
+      Flame02-temperature_16x4_43: 2137004992
+      Flame02-temperature_16x4_33: 574189090
+      Flame02-temperature_16x4_54: 446502924
+      Flame02-temperature_16x4_57: -309482632
+      Flame02-temperature_16x4_32: 2122316784
+      Flame02-temperature_16x4_55: -55554274
+      Flame02-temperature_16x4_27: 2106536325
+      Flame02-temperature_16x4_63: -244300952
+      Flame02-temperature_16x4_46: 1502515542
+      Flame02-temperature_16x4_37: 1000242678
+      Flame02-temperature_16x4_72: -691729085
+      Flame02-temperature_16x4_78: 161329252
+      Flame02-temperature_16x4_40: 1423553868
+      Flame02-temperature_16x4_53: -660295191
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1943 @@
+fileFormatVersion: 2
+guid: 2fb586f7edf3ef2459d316fb5782a65f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b64e7126953be498e39f62b6252239
+      internalID: 1720340667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e9c87d3771efd42aa91523b8b44cc0
+      internalID: -435863649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ccd77a8b42c6740aeefdb826f0ea5b
+      internalID: 220865542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6ae4ca329816b49b35e187a77eb2ac
+      internalID: -207885614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad0b547d71450e4eaafcb7347b0a3f3
+      internalID: 38964982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449139b88b2f2c04a84f1d4ffb08d5a3
+      internalID: -50874527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad1ac57b2909e84ea1cd0cf783dafb1
+      internalID: 1304183911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e08943bdf896a4ca1bb8c174f4b38d
+      internalID: 1816150365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8e0b2d8c6ff8049a1f93dfe6b8fb7d
+      internalID: 1716768509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db42b243e027dc40b987a6fb399cbbc
+      internalID: -2022580818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c1211a49bb4a946abea726f900d242
+      internalID: 1184416717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84390db62cc5fb1419838fb16f2f67ee
+      internalID: 1415232545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1190f16b19904e14d815e8d893b8f239
+      internalID: -583374812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01aa6b3a7ed147c498c1f977bff4a88f
+      internalID: -1015003359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3b48af1b3c46f4893b0841a3f33eba
+      internalID: 1877437839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0598d994a8b0e374c9c3197c6ea4ff4f
+      internalID: 1565208080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da74fe2296fcd4a4ba7c10a15520f7e0
+      internalID: -48220838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18613ce2870e254fbb1ea1059d8118d
+      internalID: 1439526235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3785eb933810d7e44b6ca8ed33ebb69d
+      internalID: 418124931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c968f42068c1a3448c4e2ca186a7bf9
+      internalID: -516783746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87d0f71d6797bb41968d15cc01abd18
+      internalID: 1587170989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e112ba2ccd8bafb4b9ed6757b3f9d906
+      internalID: -879331634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81675a70fc3d3ff409fa916ae58cf7a5
+      internalID: 816199681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78a363deb059084da5c8690eb0b866c
+      internalID: -1802403936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b443936562e664ba3dd94a07343f0d
+      internalID: 1702622498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_25
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705a082b240e18c4296fff3347bbb1e4
+      internalID: 1197700127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_26
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926542f1635bbb14fbe13aeeb7c050cf
+      internalID: 578682979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_27
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc2cb9609c47994ea38c06379fab577
+      internalID: 1156565908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bb35649a13eb847a85567c51c25475
+      internalID: 2047428997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_29
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8723d51c6cfd7264896e811d633c2650
+      internalID: -2045692304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_30
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1750cd2c5500e4190cca0ff7cc9df3
+      internalID: -1000546389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_31
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d49dedc7538034297321de25558190
+      internalID: -1369466523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf0a1211164dce4d86c7afee69af350
+      internalID: -1549173467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a6551c77521694783e67ff76678f01
+      internalID: 182767901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdb8fc1dbc2ae74e98bd7be724cf898
+      internalID: 111439096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd4a33843c858b408dc340d1e07d948
+      internalID: 1734081052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b48e49147f48b04fb54fac78607312b
+      internalID: -244202575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883a813df7890f746b40a4b1a0ede047
+      internalID: -2073652109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13d2dec6d1a70b4783b37ad48ce5e63
+      internalID: 809276560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fca14d620c3e044843ac20e8b03898
+      internalID: 1030432993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_40
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7e8c8e0e4e61746ba137c34d566e5e
+      internalID: 1553498741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_41
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49db49b9c6dd01a4d82754cf31594e1c
+      internalID: 1354629650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_42
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1df34febbbdac64f967c810c34e1a97
+      internalID: -1222225485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_43
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977555874e29f9d4498e3b4d6f453b2e
+      internalID: 924696307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_44
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7cec587583b834da8d251d3d94057e
+      internalID: 1801795811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_45
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7111654d17e966845b2400dc8fd824cc
+      internalID: -605923069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_46
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c689b50d3d607843a315c580c40b28c
+      internalID: 1703496227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_47
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa16c4e2632f18148971130bd75fc03a
+      internalID: -2086565359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85957136d174554c8759f30eb85c2e9
+      internalID: -2035231541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c56037711f1894c8dd51e7ea6fedac
+      internalID: -846710697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d86984a703eb7c46a780ca470556237
+      internalID: 1786843210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a19f3bc967a2c43a213e3ad555bd65
+      internalID: 1026212379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3797a351e61a44eaa63920d8074555
+      internalID: 1440696965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b6866804f9303499676929ebfd38e4
+      internalID: 653730562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd87e1af1af39f43830e0f7b1c5176e
+      internalID: -273674900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9864ac50d03926f4693c5f286ca7bc0c
+      internalID: 309426928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_56
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e58146aa01813488013ac3722fdc76
+      internalID: -68678656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_57
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5d1799b84fd194cb990d06eed72096
+      internalID: -594600119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_58
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd441341dcfadd846b2d5894a97ec3a7
+      internalID: -1031576202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_59
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f4475a2eaa1b3468b612489f02e169
+      internalID: 69997575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b023b137fcd26c3448b4f0e7de17bde4
+      internalID: -1202334567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_61
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b678c35e982c4b4ab63968ebd67243c
+      internalID: -1211787980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_62
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec1a5d34f2001a4d99d9bd67864d6cc
+      internalID: -374742694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_63
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789b6f1516b6f784c89d1464a3886dbe
+      internalID: 459086428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2592b042295784a9cc45d1834cdf7a
+      internalID: -1903339885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfac5725cde96d4d9a86978e7c5161e
+      internalID: 288971776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_66
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54369c3c96b94bc45a97a713c4c7db0a
+      internalID: -364458299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_67
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3630c75ab22c32e479c64ee10965551b
+      internalID: -1045218241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e6862c2d37fbe4b86829bd19daedc4
+      internalID: 61068674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_69
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d2d60110a9aea4f8296dbfbd28f896
+      internalID: 1209944243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_70
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc4fa7d067f6fb47aeeb6204a7b9532
+      internalID: -250696877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_71
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e26f29f830b3e34e821202b19a2cc42
+      internalID: 2095687646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_72
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa8cfef65914194d9b5ea739c7ba39d
+      internalID: -1253021460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_73
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87eb13275a045440863b6bae5cecf17
+      internalID: -1706775440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_74
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6861c66e4fbb94688077538510e0d4
+      internalID: -1518471449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_75
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151e76fedb7d7dd41aba2712bb346944
+      internalID: -294081226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_76
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd9403fae106634e890104c0caf88e2
+      internalID: 341069350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_77
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64be2e02f7b5d8e4b9fc0cba0325bbf2
+      internalID: -1327268130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_78
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abaa238e2dfe9b43ba4a537a515093e
+      internalID: 1986478491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow-temperature_16x4_79
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196d472898beb394d933111df5ed2f72
+      internalID: 667086554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ff74cbf55aff9c541a698a46b3c45981
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Flame03-hollow-temperature_16x4_74: -1518471449
+      Flame03-hollow-temperature_16x4_29: -2045692304
+      Flame03-hollow-temperature_16x4_45: -605923069
+      Flame03-hollow-temperature_16x4_78: 1986478491
+      Flame03-hollow-temperature_16x4_54: -273674900
+      Flame03-hollow-temperature_16x4_55: 309426928
+      Flame03-hollow-temperature_16x4_23: -1802403936
+      Flame03-hollow-temperature_16x4_53: 653730562
+      Flame03-hollow-temperature_16x4_33: 182767901
+      Flame03-hollow-temperature_16x4_6: 1304183911
+      Flame03-hollow-temperature_16x4_40: 1553498741
+      Flame03-hollow-temperature_16x4_76: 341069350
+      Flame03-hollow-temperature_16x4_57: -594600119
+      Flame03-hollow-temperature_16x4_43: 924696307
+      Flame03-hollow-temperature_16x4_67: -1045218241
+      Flame03-hollow-temperature_16x4_79: 667086554
+      Flame03-hollow-temperature_16x4_17: 1439526235
+      Flame03-hollow-temperature_16x4_72: -1253021460
+      Flame03-hollow-temperature_16x4_59: 69997575
+      Flame03-hollow-temperature_16x4_42: -1222225485
+      Flame03-hollow-temperature_16x4_50: 1786843210
+      Flame03-hollow-temperature_16x4_11: 1415232545
+      Flame03-hollow-temperature_16x4_8: 1716768509
+      Flame03-hollow-temperature_16x4_36: -244202575
+      Flame03-hollow-temperature_16x4_77: -1327268130
+      Flame03-hollow-temperature_16x4_1: -435863649
+      Flame03-hollow-temperature_16x4_5: -50874527
+      Flame03-hollow-temperature_16x4_70: -250696877
+      Flame03-hollow-temperature_16x4_44: 1801795811
+      Flame03-hollow-temperature_16x4_68: 61068674
+      Flame03-hollow-temperature_16x4_2: 220865542
+      Flame03-hollow-temperature_16x4_63: 459086428
+      Flame03-hollow-temperature_16x4_58: -1031576202
+      Flame03-hollow-temperature_16x4_3: -207885614
+      Flame03-hollow-temperature_16x4_4: 38964982
+      Flame03-hollow-temperature_16x4_48: -2035231541
+      Flame03-hollow-temperature_16x4_19: -516783746
+      Flame03-hollow-temperature_16x4_9: -2022580818
+      Flame03-hollow-temperature_16x4_30: -1000546389
+      Flame03-hollow-temperature_16x4_21: -879331634
+      Flame03-hollow-temperature_16x4_7: 1816150365
+      Flame03-hollow-temperature_16x4_13: -1015003359
+      Flame03-hollow-temperature_16x4_24: 1702622498
+      Flame03-hollow-temperature_16x4_0: 1720340667
+      Flame03-hollow-temperature_16x4_47: -2086565359
+      Flame03-hollow-temperature_16x4_37: -2073652109
+      Flame03-hollow-temperature_16x4_56: -68678656
+      Flame03-hollow-temperature_16x4_64: -1903339885
+      Flame03-hollow-temperature_16x4_14: 1877437839
+      Flame03-hollow-temperature_16x4_71: 2095687646
+      Flame03-hollow-temperature_16x4_65: 288971776
+      Flame03-hollow-temperature_16x4_62: -374742694
+      Flame03-hollow-temperature_16x4_60: -1202334567
+      Flame03-hollow-temperature_16x4_34: 111439096
+      Flame03-hollow-temperature_16x4_61: -1211787980
+      Flame03-hollow-temperature_16x4_69: 1209944243
+      Flame03-hollow-temperature_16x4_25: 1197700127
+      Flame03-hollow-temperature_16x4_28: 2047428997
+      Flame03-hollow-temperature_16x4_51: 1026212379
+      Flame03-hollow-temperature_16x4_73: -1706775440
+      Flame03-hollow-temperature_16x4_15: 1565208080
+      Flame03-hollow-temperature_16x4_49: -846710697
+      Flame03-hollow-temperature_16x4_52: 1440696965
+      Flame03-hollow-temperature_16x4_35: 1734081052
+      Flame03-hollow-temperature_16x4_31: -1369466523
+      Flame03-hollow-temperature_16x4_75: -294081226
+      Flame03-hollow-temperature_16x4_16: -48220838
+      Flame03-hollow-temperature_16x4_32: -1549173467
+      Flame03-hollow-temperature_16x4_10: 1184416717
+      Flame03-hollow-temperature_16x4_66: -364458299
+      Flame03-hollow-temperature_16x4_20: 1587170989
+      Flame03-hollow-temperature_16x4_18: 418124931
+      Flame03-hollow-temperature_16x4_46: 1703496227
+      Flame03-hollow-temperature_16x4_38: 809276560
+      Flame03-hollow-temperature_16x4_41: 1354629650
+      Flame03-hollow-temperature_16x4_39: 1030432993
+      Flame03-hollow-temperature_16x4_26: 578682979
+      Flame03-hollow-temperature_16x4_27: 1156565908
+      Flame03-hollow-temperature_16x4_12: -583374812
+      Flame03-hollow-temperature_16x4_22: 816199681
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

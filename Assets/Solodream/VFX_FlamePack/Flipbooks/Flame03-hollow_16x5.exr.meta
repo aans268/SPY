@@ -1,0 +1,1943 @@
+fileFormatVersion: 2
+guid: 24955eff8f2b9dc43ad16880ee25556b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23059a1524ed88a459e18506c4d9ab62
+      internalID: -2103144107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8645a23123e411e489949621bf0a6195
+      internalID: -803125159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a5c1257bcedb64294891ad01d9c2cd
+      internalID: -1993378858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f392abc310ad843bdc2f3e4c3853b1
+      internalID: -1679408218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cddc66a920684b4db2cf8dbf9ffee87
+      internalID: 1424182103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc0ae7eb93bd9a4793aa3c382c95cfc
+      internalID: 1340288504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368a45607870d764abb9f0f160c1da6d
+      internalID: -1904308876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fffb225f0099148be3db357a4e3af7
+      internalID: 714878896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4be13ae39a673a4ca5a621b5e380b96
+      internalID: 60334947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618dc823cfd6bf84ca4dbf9359c4d369
+      internalID: 1318365259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f21d7f55d2b4540ad09308ce8c0204
+      internalID: 442044389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f5749c58e3df9488d70666d9ae86e2
+      internalID: 1020434648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6478096d51f0e2942b54b0b49213e760
+      internalID: -240084576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0470e670ca44e7438b930f1aab9d954
+      internalID: 433893118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165c357e76ba0a14c9d7cf48bd3dc87d
+      internalID: 1429475165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 819.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e64e746058e8344978f24f1754c196
+      internalID: 774408163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd8d062674ef3c4a9baf152b1f7e17c
+      internalID: -876098148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a217cc73bcf9e4eada8a31e06a9b1a
+      internalID: 1612868581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633a6e6ca5f6b404a856571e517d925f
+      internalID: -242536813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3dd93fb27fc9a45ba57df5c62cd980
+      internalID: 1748017890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdfc2068fce24f46b15ad82097c2e11
+      internalID: -1986801970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb7feefd4bc24545901a99d5457bb83
+      internalID: 828079212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a649f953aaca81442946808237c755ae
+      internalID: 657598977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b26ffbe5b0da641b317aec444a5d24
+      internalID: -2133866825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247893e22f0a1f7419bd291fbd73113b
+      internalID: 641138462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_25
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b454225afb4d742aecd4a184dbd50f
+      internalID: -1059193482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_26
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258b29e06c3e2344485bae9859189fc3
+      internalID: -1246916723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_27
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3568036962f6f4e8532e1502143854
+      internalID: -1297049998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45347810443ae9648b60882a2e1c78d0
+      internalID: 2124107962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_29
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b5e0886e8e7994c8a4914e8eaa0fe6
+      internalID: -544959502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_30
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5be3c0024c0f742b89b11151539aee
+      internalID: 1530912745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_31
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 615.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa5cd981ddfd3e48ae8358060689c2b
+      internalID: 622440616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cc1613d78b3364190565f544396644
+      internalID: 371607234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424d9039faf02c04faf1665868db01bf
+      internalID: -1655305130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9dd4a15d31516478894be7793bec67
+      internalID: -229377366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459884b99c2886d4998378bd79c6a4bf
+      internalID: -1576940057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b25c38afe5b4a04a829bb074c1846ae
+      internalID: 671374756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9cb66ff3b2c5d44a13c12755679f35
+      internalID: 920879740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f85f75a37f3f9b49b3cf77c2a9e0f9f
+      internalID: -467886037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ff9d87db2525142865456a4a98d1f4
+      internalID: -1286050908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_40
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24813e594fb7994ab08e1ab1db9479e
+      internalID: -1284628247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_41
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc4067fe3a965247939a86a8be40d90
+      internalID: 384685342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_42
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9310f34d862697248bf5f712f6a6ee8c
+      internalID: -517850446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_43
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae734e620f5c1724ebefb3b0bd403cdf
+      internalID: 1331607455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_44
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee8cc13049e03340963f7ceda11fb13
+      internalID: 1091537868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_45
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6674a7634edbab4489d336a9f58b4634
+      internalID: 1678498381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_46
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba3dd486f594ee4ca3c1a0ec780f454
+      internalID: 733281719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_47
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 411.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944eab9f4418f5c4384b2a5031e46c97
+      internalID: -1477255243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb75acbe5b4ae724989a51cdacba283c
+      internalID: -1314771247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9941213cb0969e84cbd99e509d4d066c
+      internalID: -1869779173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a57b5cbaccd4ba49a9019e9c440303e
+      internalID: 1337611311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169ed6372447b39409905cc9289a6ca4
+      internalID: 177927637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1152d3e290780334795b334a50b08569
+      internalID: -1001878222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462493ddd6e22b542af9ae133e189546
+      internalID: 2146503224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bea73724475683448690d36935b1eb2
+      internalID: 408051245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7d3e5c87872de44925cfb3cc22cb9e
+      internalID: -1991562574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_56
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc462921f58ce7947bf3215140b71edd
+      internalID: -1636521153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_57
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055049adc3c74fd40ada641106620407
+      internalID: -2048697460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_58
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef6659fc78998946aa48e24203ea85a
+      internalID: -514213699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_59
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb847a0baff8f844a7f00cb74f50b65
+      internalID: 285084302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1a619b238ef724094997f641a0b8ec
+      internalID: 499471835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_61
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dc34bfc64921f46904a0ad603ccf80
+      internalID: -795691377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_62
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5cc318ed7ecf24b87c7aa2638b7fef
+      internalID: 1378879450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_63
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 207.2
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bcc573e6bf2814980801c178fefce1
+      internalID: 2034276635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cebc00a75322743aa2b887f544cb3d
+      internalID: -1033166400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37104050ebabd8a4e9e8b7b79527d8d4
+      internalID: 1164410006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_66
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3192e0bf3ca5e044983d28914aca8a7a
+      internalID: 467404013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_67
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03d508642d82014c801b6b7c126c2ca
+      internalID: 1019770290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcef6c0deae19d4299925eab33b1e91
+      internalID: 1599189722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_69
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b78e7b041d5494b9150a49e1eacd09
+      internalID: 294594968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_70
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630a3012678929a49ae6baca9f9302a1
+      internalID: 1995747060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_71
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469a281fe5695cc45a9475ca32ca7faf
+      internalID: -2009556840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_72
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bf141b85af2604a88ca99bbeec6242
+      internalID: -1083212023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_73
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8d85997ab91434c8e9e8dd30b1888a
+      internalID: 1124458108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_74
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fead83f636019046a202bd20fd9b0d0
+      internalID: -320230163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_75
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c85976032a80b64b9961d8155659bd9
+      internalID: 69828146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_76
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cbf22e9778574469cd8b22cce1914f
+      internalID: 1738112233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_77
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfea2ff58c84a9439dd95c44e112d28
+      internalID: -971335436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_78
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614da754d2dc69c46a11850708d54ed9
+      internalID: 1296427261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame03-hollow_16x4_79
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3.199997
+        width: 128
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcadf2e3ea626f4babcdc7466dae0c7
+      internalID: -1361333531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: be33501305821c34bac9492dc60cc9d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Flame03-hollow_16x4_7: 714878896
+      Flame03-hollow_16x4_39: -1286050908
+      Flame03-hollow_16x4_63: 2034276635
+      Flame03-hollow_16x4_64: -1033166400
+      Flame03-hollow_16x4_73: 1124458108
+      Flame03-hollow_16x4_26: -1246916723
+      Flame03-hollow_16x4_37: 920879740
+      Flame03-hollow_16x4_52: -1001878222
+      Flame03-hollow_16x4_78: 1296427261
+      Flame03-hollow_16x4_13: 433893118
+      Flame03-hollow_16x4_24: 641138462
+      Flame03-hollow_16x4_16: -876098148
+      Flame03-hollow_16x4_18: -242536813
+      Flame03-hollow_16x4_42: -517850446
+      Flame03-hollow_16x4_43: 1331607455
+      Flame03-hollow_16x4_0: -2103144107
+      Flame03-hollow_16x4_3: -1679408218
+      Flame03-hollow_16x4_28: 2124107962
+      Flame03-hollow_16x4_12: -240084576
+      Flame03-hollow_16x4_48: -1314771247
+      Flame03-hollow_16x4_41: 384685342
+      Flame03-hollow_16x4_66: 467404013
+      Flame03-hollow_16x4_59: 285084302
+      Flame03-hollow_16x4_67: 1019770290
+      Flame03-hollow_16x4_75: 69828146
+      Flame03-hollow_16x4_38: -467886037
+      Flame03-hollow_16x4_29: -544959502
+      Flame03-hollow_16x4_62: 1378879450
+      Flame03-hollow_16x4_17: 1612868581
+      Flame03-hollow_16x4_69: 294594968
+      Flame03-hollow_16x4_23: -2133866825
+      Flame03-hollow_16x4_33: -1655305130
+      Flame03-hollow_16x4_20: -1986801970
+      Flame03-hollow_16x4_22: 657598977
+      Flame03-hollow_16x4_60: 499471835
+      Flame03-hollow_16x4_74: -320230163
+      Flame03-hollow_16x4_53: 2146503224
+      Flame03-hollow_16x4_58: -514213699
+      Flame03-hollow_16x4_8: 60334947
+      Flame03-hollow_16x4_10: 442044389
+      Flame03-hollow_16x4_77: -971335436
+      Flame03-hollow_16x4_9: 1318365259
+      Flame03-hollow_16x4_55: -1991562574
+      Flame03-hollow_16x4_36: 671374756
+      Flame03-hollow_16x4_44: 1091537868
+      Flame03-hollow_16x4_46: 733281719
+      Flame03-hollow_16x4_72: -1083212023
+      Flame03-hollow_16x4_25: -1059193482
+      Flame03-hollow_16x4_76: 1738112233
+      Flame03-hollow_16x4_49: -1869779173
+      Flame03-hollow_16x4_19: 1748017890
+      Flame03-hollow_16x4_40: -1284628247
+      Flame03-hollow_16x4_4: 1424182103
+      Flame03-hollow_16x4_27: -1297049998
+      Flame03-hollow_16x4_21: 828079212
+      Flame03-hollow_16x4_51: 177927637
+      Flame03-hollow_16x4_56: -1636521153
+      Flame03-hollow_16x4_57: -2048697460
+      Flame03-hollow_16x4_35: -1576940057
+      Flame03-hollow_16x4_14: 1429475165
+      Flame03-hollow_16x4_34: -229377366
+      Flame03-hollow_16x4_32: 371607234
+      Flame03-hollow_16x4_15: 774408163
+      Flame03-hollow_16x4_2: -1993378858
+      Flame03-hollow_16x4_45: 1678498381
+      Flame03-hollow_16x4_61: -795691377
+      Flame03-hollow_16x4_70: 1995747060
+      Flame03-hollow_16x4_1: -803125159
+      Flame03-hollow_16x4_54: 408051245
+      Flame03-hollow_16x4_68: 1599189722
+      Flame03-hollow_16x4_30: 1530912745
+      Flame03-hollow_16x4_71: -2009556840
+      Flame03-hollow_16x4_65: 1164410006
+      Flame03-hollow_16x4_79: -1361333531
+      Flame03-hollow_16x4_31: 622440616
+      Flame03-hollow_16x4_6: -1904308876
+      Flame03-hollow_16x4_47: -1477255243
+      Flame03-hollow_16x4_50: 1337611311
+      Flame03-hollow_16x4_11: 1020434648
+      Flame03-hollow_16x4_5: 1340288504
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
