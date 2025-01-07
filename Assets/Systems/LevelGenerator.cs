@@ -357,6 +357,7 @@ public class LevelGenerator : FSystem {
 		ronDoor.GetComponentInChildren<RonDoorSlot3>().result = slot3;
 		//ronDoor.GetComponentInChildren<TooltipContent>().text= "#equation #operator #result";
 		ronDoor.GetComponentInChildren<TooltipContent>().text= slot1 + " "+ slot2+ " "+ slot3.ToString();
+		ronDoor.GetComponentInChildren<TooltipContent>().text = ronDoor.GetComponentInChildren<TooltipContent>().text.Replace("*", "x");
 		ronDoor.GetComponentInChildren<Position>().x = gridX;
 		ronDoor.GetComponentInChildren<Position>().y = gridY;
 		ronDoor.GetComponentInChildren<Direction>().direction = orientation;
