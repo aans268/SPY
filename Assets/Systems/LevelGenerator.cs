@@ -44,7 +44,6 @@ public class LevelGenerator : FSystem {
 	{
 		instance = this;
 	}
-
 	protected override void onStart()
 	{
 		GameObject gameDataGO = GameObject.Find("GameData");
@@ -53,6 +52,7 @@ public class LevelGenerator : FSystem {
 		else
 		{
 			gameData = gameDataGO.GetComponent<GameData>();
+			Debug.Log("LA GAME DATA : "+gameData.levels);
 			DataLevel levelToLoad = gameData.scenarios[gameData.selectedScenario].levels[gameData.levelToLoad];
 			if (gameData.levels.ContainsKey(levelToLoad.src))
 				XmlToLevel(gameData.levels[levelToLoad.src].OwnerDocument);

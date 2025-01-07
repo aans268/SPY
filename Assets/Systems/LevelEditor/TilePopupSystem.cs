@@ -36,7 +36,7 @@ public class TilePopupSystem : FSystem
 	private FloorObject selectedObject;
 
 	private List<string> furnitureNameToPath = new List<string>();
-	private List<string> operator_sign_index = new List<string> { "=", "!=", "<", "<=", ">", ">=" };
+	private List<string> operator_sign_index = new List<string> { "=", "!=", ">", ">=","<", "<=" };
 	private List<int> ronValues = new List<int> { 1, 2, 3 };
 
 	public TilePopupSystem()

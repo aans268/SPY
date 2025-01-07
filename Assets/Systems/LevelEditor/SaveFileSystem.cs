@@ -246,6 +246,28 @@ public class SaveFileSystem : FSystem
 					levelExport += "\t<door posX=\"" + (d.col+1 - minCol) + "\" posY=\"" + (d.line+ 1 - minLine) + "\" slotId=\""+ d.slot + "\" direction=\""+ (int)d.orientation + "\" />\n\n";
 					break;
 				case RonDoor rd:
+					if (rd.operator_sign == "<")
+					{
+						rd.operator_sign = "&lt;";
+					}
+					else if (rd.operator_sign == ">")
+					{
+						rd.operator_sign = "&gt;";
+					}
+					else if (rd.operator_sign == "<=")
+					{
+						rd.operator_sign = "&lt;=";
+					}
+					else if (rd.operator_sign == ">=")
+					{
+						rd.operator_sign = "&gt;=";
+					}
+					else if (rd.operator_sign == "!=")
+					{
+						rd.operator_sign = "&#33;="; // Combinaison pour "!="
+					}
+
+
 					levelExport += "\t<ronDoor posX=\"" + (rd.col+1 - minCol) + "\" posY=\"" + (rd.line+ 1 - minLine) + "\" equation=\""+ rd.equation+ "\" operator_sign=\""+ rd.operator_sign+ "\" result=\""+ rd.result + "\" direction=\""+ (int)rd.orientation + "\" />\n\n";
 					break;
 				case Ron r:

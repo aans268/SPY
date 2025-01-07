@@ -79,6 +79,7 @@ public class RonDoorSystem : FSystem
 
      static bool EvaluateExpression(string expression)
     {
+        expression = expression.Replace("!=", "<>");
         // Utiliser DataTable pour évaluer l'expression
         DataTable table = new();
 
