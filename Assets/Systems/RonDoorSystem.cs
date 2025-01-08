@@ -14,6 +14,7 @@ public class RonDoorSystem : FSystem
     private GameData gameData;
 
     private bool createRonDoorEquation = true;
+    private int previousTotalRon;
 
     protected override void onStart()
     {
@@ -26,54 +27,68 @@ public class RonDoorSystem : FSystem
 
     protected override void onProcess(int familiesUpdateCount)
     {
-
         if (createRonDoorEquation)
         {
             CreateRonDoorEquation();
             createRonDoorEquation = false;
         }
+
+        if (HasTotalRonChanged())
+        {
+            UpdateRonDoors();
+        }
+    }
+
+    private bool HasTotalRonChanged()
+    {
+        if (gameData.totalRon != previousTotalRon)
+        {
+            previousTotalRon = gameData.totalRon;
+            return true;
+        }
+        return false;
+    }
+
+    private void UpdateRonDoors()
+    {
         foreach (GameObject ronDoor in f_ronDoor)
         {
-            // Vérifier si l'objet 'ronDoor' existe déjà dans le dictionnaire
             if (ronDoor_equations.ContainsKey(ronDoor))
             {
                 string this_equation = ronDoor_equations[ronDoor];
-                //on récupère le string : "2 * RON + 3<12"
+                this_equation = this_equation.Replace("RON", gameData.totalRon.ToString(), StringComparison.OrdinalIgnoreCase);
 
-                this_equation = this_equation.Replace("RON", gameData.totalRon.ToString());
                 try
                 {
-                    // Évaluer l'expression
                     bool result = EvaluateExpression(this_equation);
-
-                    if (result)
-                    {
-                        // display door
-                        ronDoor.transform.parent.GetComponent<AudioSource>().Play();
-                        ronDoor.transform.parent.GetComponent<Animator>().SetTrigger("Open");
-                        ronDoor.transform.parent.GetComponent<Animator>().speed = gameData.gameSpeed_current;
-                    }
-                    else
-                    {
-                        // display door
-                        ronDoor.transform.parent.GetComponent<AudioSource>().Play();
-                        ronDoor.transform.parent.GetComponent<Animator>().SetTrigger("Close");
-                        ronDoor.transform.parent.GetComponent<Animator>().speed = gameData.gameSpeed_current;
-                    }
-
+                    HandleRonDoor(ronDoor, result);
                     Debug.Log($"L'expression '{this_equation}' est {result}");
                 }
                 catch (Exception ex)
                 {
                     Debug.Log($"Erreur lors de l'évaluation : {ex.Message}");
                 }
-                
-            }
-            else
-            {
-                //Debug.LogWarning($"La clé pour le GameObject '{ronDoor.name}' n'a pas été trouvée dans le dictionnaire.");
             }
         }
+    }
+
+    private void HandleRonDoor(GameObject ronDoor, bool result)
+    {
+        var animator = ronDoor.transform.parent.GetComponent<Animator>();
+        var audioSource = ronDoor.transform.parent.GetComponent<AudioSource>();
+
+        if (result)
+        {
+            audioSource.Play();
+            animator.SetTrigger("Open");
+        }
+        else
+        {
+            //audioSource.Play();
+            animator.SetTrigger("Close");
+        }
+
+        animator.speed = gameData.gameSpeed_current;
     }
 
 

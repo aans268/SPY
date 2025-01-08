@@ -3785,7 +3785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a851999ad524fd640a3b2ec45d400d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: "Cr\xE9er un ron"
+  text: "Cr\xE9er un Ron"
 --- !u!114 &223771129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25798,10 +25798,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a851999ad524fd640a3b2ec45d400d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: "Cette section permet de d\xE9finir le slot de contr\xF4le<br>de la porte.
-    Pour qu'une porte puisse \xEAtre active,<br>le num\xE9ro de slot indiqu\xE9 ici
-    doit \xEAtre pr\xE9sent<br>dans la liste des slots contr\xF4l\xE9s par au moins
-    un terminal"
+  text: "Cette section permet de d\xE9finir le c\xF4t\xE9 gauche <br> de l\u2019\xE9quation
+    li\xE9e \xE0 la porte. Pour qu'une porte puisse \xEAtre active,<br>l\u2019\xE9quation
+    doit contenir la variable \xAB\_RON\_\xBB<br> qui d\xE9fini la valeur totale
+    des Rons \xE0 collecter."
 --- !u!114 &1495665301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31506,10 +31506,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a851999ad524fd640a3b2ec45d400d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: "Cette section permet de d\xE9finir le slot de contr\xF4le<br>de la porte.
-    Pour qu'une porte puisse \xEAtre active,<br>le num\xE9ro de slot indiqu\xE9 ici
-    doit \xEAtre pr\xE9sent<br>dans la liste des slots contr\xF4l\xE9s par au moins
-    un terminal"
+  text: "Cette section permet de d\xE9finir la valeur<br> du cot\xE9 droit de l\u2019\xE9quation
+    <br> \xE0 prendre en compte pour d\xE9verrouiller <br> la porte. "
 --- !u!114 &1980224699
 MonoBehaviour:
   m_ObjectHideFlags: 0

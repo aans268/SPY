@@ -5145,7 +5145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a851999ad524fd640a3b2ec45d400d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: "r\xE9cup\xE8re moi pour diminier <br>ton score !"
+  text: "r\xE9cup\xE8re moi  !"
 --- !u!54 &490913905107958832
 Rigidbody:
   m_ObjectHideFlags: 0

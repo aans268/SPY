@@ -986,7 +986,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 15915744687898624
-    m_Localized: "Cr\xE9er une RonDoor"
+    m_Localized: "Cr\xE9er une porte"
     m_Metadata:
       m_Items: []
   - m_Id: 15915769711116288
@@ -1291,7 +1291,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 18085207671652352
-    m_Localized: Door
+    m_Localized: Porte
     m_Metadata:
       m_Items: []
   - m_Id: 18085240219451392

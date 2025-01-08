@@ -7,6 +7,7 @@ using TMPro;
 using System.Collections;
 using System.Runtime.InteropServices;
 using System;
+using UnityEditor;
 
 /// <summary>
 /// Read XML file and load level
@@ -356,8 +357,16 @@ public class LevelGenerator : FSystem {
 		ronDoor.GetComponentInChildren<RonDoorSlot2>().operator_sign = slot2;
 		ronDoor.GetComponentInChildren<RonDoorSlot3>().result = slot3;
 		//ronDoor.GetComponentInChildren<TooltipContent>().text= "#equation #operator #result";
-		ronDoor.GetComponentInChildren<TooltipContent>().text= slot1 + " "+ slot2+ " "+ slot3.ToString();
-		ronDoor.GetComponentInChildren<TooltipContent>().text = ronDoor.GetComponentInChildren<TooltipContent>().text.Replace("*", "x");
+		//ronDoor.GetComponentInChildren<TooltipContent>().text= slot1 + " "+ slot2+ " "+ slot3.ToString();
+		//ronDoor.GetComponentInChildren<TooltipContent>().text = ronDoor.GetComponentInChildren<TooltipContent>().text.Replace("*", "x");
+		string fct = "bool ouvrir_la_porte(int ron) { <br>"
+					+"	if (" + slot1 + " " + slot2 + " " + slot3.ToString() + ") { <br>"
+					+"		return true; <br>"
+					+"	} else { <br>"
+					+"		return false; <br>"
+					+"	} <br>}";
+
+		ronDoor.GetComponentInChildren<TooltipContent>().text = fct;
 		ronDoor.GetComponentInChildren<Position>().x = gridX;
 		ronDoor.GetComponentInChildren<Position>().y = gridY;
 		ronDoor.GetComponentInChildren<Direction>().direction = orientation;
@@ -436,6 +445,7 @@ public class LevelGenerator : FSystem {
 				ron.GetComponent<MeshRenderer>().materials[0].color = Color.yellow;
 				break;
 		}
+		ron.GetComponent<TooltipContent>().text = "Récupère moi ! Ma valeur est de : " + value;
 		//ron.GetComponent<MeshRenderer>().materials[0].color = Color.blue;
 		GameObjectManager.bind(ron);
 	}
