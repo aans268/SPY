@@ -366,7 +366,7 @@ public class LevelGenerator : FSystem {
 					+"		return false; <br>"
 					+"	} <br>}";
 
-		ronDoor.GetComponentInChildren<TooltipContent>().text = fct;
+		ronDoor.transform.Find("Door").GetComponent<TooltipContent>().text = fct;
 		ronDoor.GetComponentInChildren<Position>().x = gridX;
 		ronDoor.GetComponentInChildren<Position>().y = gridY;
 		ronDoor.GetComponentInChildren<Direction>().direction = orientation;

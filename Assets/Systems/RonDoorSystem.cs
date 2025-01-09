@@ -3,6 +3,7 @@ using UnityEngine;
 using FYFY;
 using System;
 using System.Data;
+using UnityEditor.Localization.Plugins.XLIFF.V12;
 
 
 public class RonDoorSystem : FSystem
@@ -77,16 +78,17 @@ public class RonDoorSystem : FSystem
         var animator = ronDoor.transform.parent.GetComponent<Animator>();
         var audioSource = ronDoor.transform.parent.GetComponent<AudioSource>();
 
-        if (result)
+        if (result && !animator.GetCurrentAnimatorStateInfo(0).IsName("DoorOpen"))
         {
             audioSource.Play();
             animator.SetTrigger("Open");
         }
-        else
+        else if (!result && !animator.GetCurrentAnimatorStateInfo(0).IsName("DoorIdle"))
         {
-            //audioSource.Play();
+            audioSource.Play();
             animator.SetTrigger("Close");
         }
+        ronDoor.transform.parent.transform.Find("TeleporterCentral").GetComponent<TooltipContent>().text = result ? "Porte ouverte" : "Porte fermée";
 
         animator.speed = gameData.gameSpeed_current;
     }
