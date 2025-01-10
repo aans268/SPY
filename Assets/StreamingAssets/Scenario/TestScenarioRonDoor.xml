@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<scenario name="TestScenarioRonDoor" desc="tes du scenario final">
+	<level src="Levels/TestScenarioRonDoor/ronDoorNiv0.xml" name="ronDoorNiv0" />
+	<level src="Levels/TestScenarioRonDoor/ronDoorNiv1.1.xml" name="ronDoorNiv1.1" />
+	<level src="Levels/TestScenarioRonDoor/ronDoorNiv1.2.xml" name="ronDoorNiv1.2" />
+	<level src="Levels/TestScenarioRonDoor/ronDoorNiv1.3.xml" name="ronDoorNiv1.3" />
+	<level src="Levels/TestScenarioRonDoor/ronDoorNiv1.4.xml" name="ronDoorNiv1.4" />
+	<level src="Levels/TestScenarioRonDoor/ronDoorNivPourOpti.xml" name="ronDoorNiv1.5" />
+	<level src="Levels/TestScenarioRonDoor/ronDoorNiv1.6.xml" name="ronDoorNiv1.6" />
+</scenario>
