@@ -40,6 +40,8 @@ public class RonManager : FSystem
 			foreach(GameObject target in trigger.Targets){
 				//Check if the player collide with a coin
                 if(target.CompareTag("1Ron")){
+					var audioSource = target.GetComponent<AudioSource>();
+					audioSource.Play();
 					gameData.totalRon += target.GetComponent<RonValue>().value;
 					Debug.Log("gamedata ron : "+gameData.totalRon);
 					ronText.text = "Valeur totale des Rons collectés : " + gameData.totalRon.ToString();

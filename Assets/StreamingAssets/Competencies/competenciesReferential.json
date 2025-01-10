@@ -1182,6 +1182,40 @@
 						}
 					],
 					"rule": "exitInLib >= 1 or exitInScript >= 1"
+				},
+				{
+					"key": "SPY_ActiveDoor",
+					"parentKey": "",
+					"name": "[fr]F36 Ouvrir/Fermer une porte avec équation en collectant le bon nombre de Rons[/fr][en]F3 Open/Close a door with equation by collecting the right number of Rons[/en]",
+					"description": "[fr]Être capable de trouver la solution à l'équation pour ouvrir/fermer une porte.[/fr][en]Be able to find the solution of the equation to open/close a door.[/en]",
+					"filters": [
+						{
+							"label": "DoorWithEquation",
+							"tag": "ronDoor",
+							"constraints": [
+								{
+									"attribute": "equation",
+									"constraint": "<>",
+									"value": ""
+								}
+							]
+						},
+						{
+							"label": "RonInLevel",
+							"tag": "ron",
+							"constraints": [
+								{
+									"attribute": "value",
+									"constraint": ">=",
+									"value": "1"
+								}
+							]
+
+
+						}
+						
+					],
+					"rule": "DoorWithEquation >= 1 and RonInLevel >= 1"
 				}
 			]
 		},

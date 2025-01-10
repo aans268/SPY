@@ -417,6 +417,7 @@ GameObject:
   - component: {fileID: 1343849826573660573}
   - component: {fileID: 7301265187892477209}
   - component: {fileID: 4735052257382639533}
+  - component: {fileID: 5470733231053507002}
   m_Layer: 8
   m_Name: TeleporterCentral
   m_TagString: Spawn
@@ -502,6 +503,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: 
+--- !u!135 &5470733231053507002
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3269226391573449534}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 3.0445483
+  m_Center: {x: 0, y: 1.0337805e-14, z: 1.8562148}
 --- !u!1 &6293387629174268916
 GameObject:
   m_ObjectHideFlags: 0

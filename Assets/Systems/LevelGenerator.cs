@@ -83,7 +83,7 @@ public class LevelGenerator : FSystem {
 		gameData.totalExecute = 0;
 		gameData.totalCoin = 0;
 		gameData.totalRon = 0;
-
+		bool isRon = false;
 		gameData.levelToLoadScore = null;
 		// check if dialogs are defined in the scenario
 		bool dialogsOverrided = true;
@@ -136,6 +136,7 @@ public class LevelGenerator : FSystem {
 					break;
 				case "ron":
 					createRon(int.Parse(child.Attributes.GetNamedItem("posX").Value), int.Parse(child.Attributes.GetNamedItem("posY").Value), int.Parse(child.Attributes.GetNamedItem("value").Value));
+					isRon = true;
 					break;
 				case "console":
 					readXMLConsole(child);
@@ -215,6 +216,19 @@ public class LevelGenerator : FSystem {
 					break;
 			}
 		}
+		if (isRon)
+			{
+				GameObject mainCanvas = GameObject.Find("MainCanvas");
+				if (mainCanvas != null)
+				{
+					GameObject zoneRonCounter = mainCanvas.transform.Find("ZoneRonCounter").gameObject;
+					if (zoneRonCounter != null)
+					{
+						GameObjectManager.setGameObjectState(zoneRonCounter, true);
+					}
+				}
+			}
+			
 		eraseMap();
 		generateMap(doc.GetElementsByTagName("hideExits").Count > 0);
 		MainLoop.instance.StartCoroutine(delayGameLoaded());
@@ -359,12 +373,8 @@ public class LevelGenerator : FSystem {
 		//ronDoor.GetComponentInChildren<TooltipContent>().text= "#equation #operator #result";
 		//ronDoor.GetComponentInChildren<TooltipContent>().text= slot1 + " "+ slot2+ " "+ slot3.ToString();
 		//ronDoor.GetComponentInChildren<TooltipContent>().text = ronDoor.GetComponentInChildren<TooltipContent>().text.Replace("*", "x");
-		string fct = "bool ouvrir_la_porte(int ron) { <br>"
-					+"	if (" + slot1 + " " + slot2 + " " + slot3.ToString() + ") { <br>"
-					+"		return true; <br>"
-					+"	} else { <br>"
-					+"		return false; <br>"
-					+"	} <br>}";
+		string fct = "si (" + slot1 + " " + slot2 + " " + slot3.ToString() + ") <br>"
+					+"	ouvrir la porte <br>";
 
 		ronDoor.transform.Find("Door").GetComponent<TooltipContent>().text = fct;
 		ronDoor.GetComponentInChildren<Position>().x = gridX;

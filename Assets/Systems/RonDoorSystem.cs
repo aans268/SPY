@@ -31,6 +31,7 @@ public class RonDoorSystem : FSystem
         if (createRonDoorEquation)
         {
             CreateRonDoorEquation();
+            UpdateRonDoors();
             createRonDoorEquation = false;
         }
 
@@ -88,7 +89,8 @@ public class RonDoorSystem : FSystem
             audioSource.Play();
             animator.SetTrigger("Close");
         }
-        ronDoor.transform.parent.transform.Find("TeleporterCentral").GetComponent<TooltipContent>().text = result ? "Porte ouverte" : "Porte fermée";
+        var tooltip = ronDoor.transform.GetComponent<TooltipContent>();
+        ronDoor.transform.parent.transform.Find("TeleporterCentral").GetComponent<TooltipContent>().text = result ? tooltip.text : "";
 
         animator.speed = gameData.gameSpeed_current;
     }
