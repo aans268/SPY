@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<level>
+	<map>
+		<line><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="1" /><cell value="1" /><cell value="1" /><cell value="1" /><cell value="1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="1" /><cell value="3" /><cell value="1" /><cell value="3" /><cell value="1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="1" /><cell value="0" /><cell value="0" /><cell value="1" /><cell value="0" /><cell value="0" /><cell value="1" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="0" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="0" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="2" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="0" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="2" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /></line>
+	</map>
+
+	<executionLimit amount="1" />
+
+	<score twoStars="0" threeStars="3544"/>
+
+	<blockLimits>
+		<blockLimit blockType="Forward" limit="0" />
+		<blockLimit blockType="TurnLeft" limit="0" />
+		<blockLimit blockType="TurnRight" limit="0" />
+		<blockLimit blockType="TurnBack" limit="0" />
+		<blockLimit blockType="Activate" limit="0" />
+		<blockLimit blockType="Wait" limit="1" />
+		<blockLimit blockType="IfThen" limit="0" />
+		<blockLimit blockType="IfElse" limit="0" />
+		<blockLimit blockType="ForLoop" limit="0" />
+		<blockLimit blockType="While" limit="0" />
+		<blockLimit blockType="Forever" limit="0" />
+		<blockLimit blockType="AndOperator" limit="0" />
+		<blockLimit blockType="OrOperator" limit="0" />
+		<blockLimit blockType="NotOperator" limit="0" />
+		<blockLimit blockType="WallFront" limit="0" />
+		<blockLimit blockType="WallLeft" limit="0" />
+		<blockLimit blockType="WallRight" limit="0" />
+		<blockLimit blockType="PathFront" limit="0" />
+		<blockLimit blockType="PathLeft" limit="0" />
+		<blockLimit blockType="PathRight" limit="0" />
+		<blockLimit blockType="Enemy" limit="0" />
+		<blockLimit blockType="RedArea" limit="0" />
+		<blockLimit blockType="FieldGate" limit="0" />
+		<blockLimit blockType="Terminal" limit="0" />
+		<blockLimit blockType="Exit" limit="0" />
+	</blockLimits>
+
+	<ronDoor posX="2" posY="5" equation="ron - 5" operator_sign="&gt;" result="1" direction="0" />
+
+	<ronDoor posX="8" posY="5" equation="ron" operator_sign="&gt;" result="0" direction="0" />
+
+	<player inputLine="Bob" posX="2" posY="8" direction="0" />
+
+	<player inputLine="Patrick" posX="8" posY="9" direction="0" />
+
+	<ron posX="2" posY="4" value="1" />
+
+	<ron posX="3" posY="3" value="2" />
+
+	<ron posX="4" posY="4" value="3" />
+
+	<ron posX="6" posY="4" value="3" />
+
+	<ron posX="3" posY="6" value="2" />
+
+	<ron posX="3" posY="7" value="3" />
+
+	<ron posX="7" posY="6" value="1" />
+
+	<ron posX="7" posY="7" value="1" />
+
+	<script outputLine="Script1" editMode="2" type="3">
+		<action type="Forward"/>
+		<action type="TurnRight"/>
+		<action type="Forward"/>
+		<action type="TurnLeft"/>
+		<action type="Forward"/>
+		<action type="TurnLeft"/>
+		<action type="Forward"/>
+		<action type="Wait"/>
+		<action type="Wait"/>
+		<action type="Wait"/>
+		<for nbFor="2">
+			<action type="TurnRight"/>
+			<action type="Forward"/>
+			<action type="Forward"/>
+		</for>
+		<action type="TurnLeft"/>
+		<action type="Forward"/>
+		<action type="Forward"/>
+	</script>
+
+	<script outputLine="Script2" editMode="2" type="3">
+		<for nbFor="5">
+			<action type="Forward"/>
+		</for>
+		<action type="TurnLeft"/>
+		<action type="Forward"/>
+		<action type="Forward"/>
+		<action type="TurnRight"/>
+		<action type="Forward"/>
+		<action type="Forward"/>
+	</script>
+
+</level>

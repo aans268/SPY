@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<scenario name="RonDoor" desc="Dans ce scénario tu dois collecter des Rons pour satisfaire les exigences des portes. Chaque porte impose une condition unique. LA mission : ramasser le bon nombre de Rons pour avancer et atteindre la sortie ultime.">
+	<level src="Levels/RonDoor/Niveau0.xml" name="Niveau 0" >
+		<dialogs>
+			<dialog text="Bienvenue dans le Royaume des Rons !" enableInteraction="1" briefingType="0" />
+			<dialog text="Héros intrépide, te voilà piégé dans des plateformes mystérieux où chaque porte raconte sa propre énigme. Ton objectif ? Trouver la sortie… mais bien sûr, ce ne sera pas aussi simple !" enableInteraction="1" briefingType="0" />
+			<dialog text="Mission : Déverrouiller la Porte !" enableInteraction="1" briefingType="0" />
+			<dialog text="La porte de la sortie est verrouillée par une condition magique très capricieuse. Pour l’ouvrir, il te faudra récolter un nombre précis de Rons — de mystérieux objets scintillants qui flottent un peu partout dans le niveau. Mais attention :" enableInteraction="1" briefingType="0" />
+			<dialog text="Si tu ramasses trop de Rons, la porte pourrait exploser (non, sérieusement). " enableInteraction="1" briefingType="0" />
+			<dialog text="Si tu n’en ramasses pas assez, la porte te rira au nez et restera fermée." enableInteraction="1" briefingType="0" />
+			<dialog text="Les Règles du Jeu :
+	•	Parcours les zones pour trouver et collecter les Rons nécessaires.
+	•	Analyse bien la condition de la porte pour savoir combien de Rons elle veut. Elle est un peu pointilleuse, mais elle ne ment jamais !
+	•	Prends garde aux pièges et aux Rons non nécessaires qui pourraient te faire perdre du temps." enableInteraction="1" briefingType="0" />
+			<dialog text="Courage, aventurier ! Chaque porte franchie te rapproche un peu plus de la liberté… et d’un diplôme en mathématiques appliquées (ou presque). Bonne chasse aux Rons, et méfie-toi des pièges qui pourraient te faire “Ron-ronner” d’impatience !" enableInteraction="1" briefingType="0" />
+		</dialogs>
+	</level>
+	<level src="Levels/RonDoor/Niveau1.1.xml" name="Niveau 1.1" />
+	<level src="Levels/RonDoor/Niveau1.2.xml" name="Niveau 1.2" >
+		<dialogs>
+			<dialog text="Attention, aventurier !" enableInteraction="1" briefingType="0" />
+			<dialog text="Jusqu’ici, collecter les Rons était simple : un Ron, un point. Mais voilà, les choses se compliquent ! À partir de maintenant, les Rons ne se valent plus tous. Certaines portes sont devenues encore plus capricieuses et demandent un total précis… mais avec des Rons de différentes valeurs." enableInteraction="1" briefingType="0" />
+			<dialog text="Voici ce qui change :" enableInteraction="1" briefingType="0" />
+			<dialog text="Les Rons rouges de valeur 1 : Les classiques, fidèles compagnons. Ils valent un point chacun." enableInteraction="1" briefingType="0" />
+			<dialog text="Les Rons verts de valeur 2 : Double le plaisir, double la valeur !" enableInteraction="1" briefingType="0" />
+			<dialog text="Les Rons jaunes de valeur 3 : Les légendes parmi les Rons." enableInteraction="1" briefingType="0" />
+			<dialog text="Pour déverrouiller une porte, tu devras additionner intelligemment les valeurs des Rons que tu ramasses. La porte te dira combien elle veut au total, mais c’est à toi de choisir la meilleure combinaison pour y arriver. Ramasse les bons Rons, évite les pièges… et surtout, pas d’erreur, ou la porte restera obstinément fermée." enableInteraction="1" briefingType="0" />
+		</dialogs>
+	</level>
+	<level src="Levels/RonDoor/Niveau1.3.xml" name="Niveau 1.3" />
+	<level src="Levels/RonDoor/Niveau1.4.xml" name="Niveau 1.4" />
+	<level src="Levels/RonDoor/Niveau1.5.xml" name="Niveau 1.5" />
+	<level src="Levels/RonDoor/Niveau1.6.xml" name="Niveau 1.6" />
+	<level src="Levels/RonDoor/Niveau2.1.xml" name="Niveau 2.1" >
+		<dialogs>
+			<dialog text="Nouveau Défi : Double Porte, Double Problème !" enableInteraction="1" briefingType="0" />
+			<dialog text="Félicitations, aventurier !
+
+Tu es devenu tellement bon à ouvrir des portes qu’il est temps de rendre les choses encore plus intéressantes (ou compliquées, selon ton point de vue). À partir de maintenant, les niveaux auront deux portes. Oui, DEUX !" enableInteraction="1" briefingType="0" />
+			<dialog text="Les Nouvelles Règles :" enableInteraction="1" briefingType="0" />
+			<dialog text="1. Une seule collecte, des conditions multiples :
+• Tous les Rons que tu ramasses comptent pour toutes les portes. Pas besoin de les répartir : ce que tu collectes s’applique à chaque porte.
+• Mais… chaque porte a sa propre condition magique. Elles ne s’ouvriront que si le total de Rons collectés satisfait leurs exigences respectives.
+" enableInteraction="1" briefingType="0" />
+			<dialog text="2. Des conditions variées :
+• Une porte peut exiger un nombre exact de Rons.
+• Une autre peut demander un minimum ou maximum précis, ou même d'éviter un nombre exact.
+• Attention ! Satisfaire une porte ne suffit pas : il faut satisfaire toutes les portes pour avancer." enableInteraction="1" briefingType="0" />
+			<dialog text="Planifie ton parcours pour ramasser juste le bon nombre de Rons. Si tu dépasses ou n’atteins pas les conditions, certaines portes resteront fermées." enableInteraction="1" briefingType="0" />
+			<dialog text="Fais attention aux pièges :
+• Certains Rons “bonus” pourraient te faire dépasser les limites demandées par une porte. Ramasse-les avec précaution !" enableInteraction="1" briefingType="0" />
+		</dialogs>
+	</level>
+	<level src="Levels/RonDoor/Niveau2.2.xml" name="Niveau 2.2" />
+	<level src="Levels/RonDoor/Niveau2.3.xml" name="Niveau 2.3" />
+	<level src="Levels/RonDoor/Niveau3.1.xml" name="Niveau 3.1" >
+		<dialogs>
+			<dialog text="Nouveau Défi : Duo de Robots, Double Stratégie !" enableInteraction="1" briefingType="0" />
+			<dialog text="Félicitations, aventurier des circuits et des portes ! " enableInteraction="1" briefingType="0" />
+			<dialog text="Tu as prouvé que tu pouvais gérer un robot et ouvrir toutes les portes en chemin. Mais il est temps de passer au niveau supérieur ! À partir de maintenant, tu ne contrôles plus un, mais deux robots ! " enableInteraction="1" briefingType="0" />
+			<dialog text="Les Nouvelles Règles :" enableInteraction="1" briefingType="0" />
+			<dialog text="1.  Deux robots, un objectif commun :
+• Tu devras utiliser les deux robots ensemble pour atteindre la sortie.
+• Chaque robot peut ramasser des Rons, interagir avec les portes et explorer le niveau, mais ils devront coopérer pour réussir." enableInteraction="1" briefingType="0" />
+			<dialog text="2.  Les Rons sont partagés :
+• Les Rons collectés par les deux robots sont ajoutés à un total commun, utilisé pour satisfaire les conditions des portes.
+• Planifie leur parcours pour optimiser la collecte et éviter de perdre du temps." enableInteraction="1" briefingType="0" />
+			<dialog text="3.  Deux fois plus de stratégie :
+• Certaines zones ne seront accessibles qu’à un robot spécifique.
+• Tu devras souvent séparer les deux robots pour qu’ils accomplissent des tâches différentes… avant de les réunir à la sortie." enableInteraction="1" briefingType="0" />
+			<dialog text="Pour commencer, Dans ce niveau, il faudra attribuer chaque script au bon robot pour atteindre la sortie.
+" enableInteraction="1" briefingType="0" />
+			<dialog text="Mais pas si vite ! Un des deux robots devra attendre un moment avant d'executer son script. Il vous faudra donc glisser l'action 'attendre' au début de l'un des deux script." enableInteraction="1" briefingType="0" />
+		</dialogs>
+	</level>
+	<level src="Levels/RonDoor/Niveau3.2.xml" name="Niveau 3.2" />
+	<level src="Levels/RonDoor/Niveau3.3.xml" name="Niveau 3.3" >
+		<dialogs>
+			<dialog text=" Félicitations, Maître des Rons !
+Tu l’as fait, héros des portes et maître des robots ! Après des niveaux remplis d’énigmes, de stratégies et de collectes de Rons (parfois stressantes), tu as enfin atteint la sortie ultime." enableInteraction="1" briefingType="1" />
+			<dialog text="Souviens-toi : chaque Ron compte, et les portes s’ouvrent toujours à ceux qui savent comment les satisfaire." enableInteraction="1" briefingType="0" />
+		</dialogs>
+	</level>
+</scenario>

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<level>
+	<map>
+		<line><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="1" /><cell value="1" /><cell value="1" /><cell value="1" /><cell value="1" /><cell value="1" /><cell value="1" /><cell value="1" /><cell value="1" /><cell value="1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="1" /><cell value="-1" /><cell value="-1" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="3" /><cell value="-1" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="2" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /></line>
+	</map>
+
+	<score twoStars="3000" threeStars="3592"/>
+
+	<blockLimits>
+		<blockLimit blockType="Forward" limit="-1" />
+		<blockLimit blockType="TurnLeft" limit="-1" />
+		<blockLimit blockType="TurnRight" limit="-1" />
+		<blockLimit blockType="TurnBack" limit="-1" />
+		<blockLimit blockType="Activate" limit="0" />
+		<blockLimit blockType="Wait" limit="0" />
+		<blockLimit blockType="IfThen" limit="0" />
+		<blockLimit blockType="IfElse" limit="0" />
+		<blockLimit blockType="ForLoop" limit="-1" />
+		<blockLimit blockType="While" limit="0" />
+		<blockLimit blockType="Forever" limit="0" />
+		<blockLimit blockType="AndOperator" limit="0" />
+		<blockLimit blockType="OrOperator" limit="0" />
+		<blockLimit blockType="NotOperator" limit="0" />
+		<blockLimit blockType="WallFront" limit="0" />
+		<blockLimit blockType="WallLeft" limit="0" />
+		<blockLimit blockType="WallRight" limit="0" />
+		<blockLimit blockType="PathFront" limit="0" />
+		<blockLimit blockType="PathLeft" limit="0" />
+		<blockLimit blockType="PathRight" limit="0" />
+		<blockLimit blockType="Enemy" limit="0" />
+		<blockLimit blockType="RedArea" limit="0" />
+		<blockLimit blockType="FieldGate" limit="0" />
+		<blockLimit blockType="Terminal" limit="0" />
+		<blockLimit blockType="Exit" limit="0" />
+	</blockLimits>
+
+	<decoration name="Modern Furniture/Prefabs/Coffee Table" posX="6" posY="6" direction="0" />
+
+	<decoration name="Modern Furniture/Prefabs/Coffee Table" posX="5" posY="9" direction="0" />
+
+	<decoration name="Modern Furniture/Prefabs/Coffee Table" posX="4" posY="8" direction="0" />
+
+	<decoration name="Modern Furniture/Prefabs/Coffee Table" posX="7" posY="8" direction="0" />
+
+	<decoration name="Modern Furniture/Prefabs/Coffee Table" posX="4" posY="7" direction="0" />
+
+	<decoration name="Modern Furniture/Prefabs/Coffee Table" posX="7" posY="7" direction="0" />
+
+	<decoration name="Modern Furniture/Prefabs/Coffee Table" posX="3" posY="6" direction="0" />
+
+	<ron posX="6" posY="7" value="2" />
+
+	<decoration name="Modern Furniture/Prefabs/Coffee Table" posX="2" posY="5" direction="0" />
+
+	<decoration name="Modern Furniture/Prefabs/Coffee Table" posX="5" posY="5" direction="0" />
+
+	<decoration name="Modern Furniture/Prefabs/Coffee Table" posX="4" posY="4" direction="0" />
+
+	<decoration name="Modern Furniture/Prefabs/Coffee Table" posX="3" posY="3" direction="0" />
+
+	<ron posX="4" posY="6" value="2" />
+
+	<ron posX="3" posY="4" value="2" />
+
+	<ronDoor posX="3" posY="2" equation="10 * ron" operator_sign="&gt;=" result="40" direction="3" />
+
+	<ron posX="6" posY="4" value="1" />
+
+	<ron posX="5" posY="2" value="1" />
+
+	<ron posX="5" posY="4" value="1" />
+
+	<ron posX="6" posY="5" value="1" />
+
+	<ron posX="6" posY="3" value="1" />
+
+	<ron posX="6" posY="2" value="1" />
+
+	<ron posX="5" posY="3" value="1" />
+
+	<ron posX="4" posY="2" value="1" />
+
+	<ronDoor posX="7" posY="5" equation="2 * ron" operator_sign="&lt;=" result="21" direction="3" />
+
+	<ron posX="3" posY="7" value="3" />
+
+	<ron posX="2" posY="7" value="1" />
+
+	<ron posX="1" posY="7" value="3" />
+
+	<ron posX="1" posY="8" value="3" />
+
+	<ron posX="1" posY="9" value="3" />
+
+	<ron posX="2" posY="9" value="3" />
+
+	<ron posX="3" posY="9" value="3" />
+
+	<ron posX="3" posY="8" value="3" />
+
+	<ron posX="2" posY="8" value="2" />
+
+	<player inputLine="Bob" posX="6" posY="9" direction="0" />
+
+	<ron posX="8" posY="2" value="3" />
+
+	<ron posX="1" posY="3" value="2" />
+
+	<ron posX="5" posY="8" value="1" />
+
+	<script outputLine="Bob" editMode="0" type="3">
+	</script>
+
+</level>

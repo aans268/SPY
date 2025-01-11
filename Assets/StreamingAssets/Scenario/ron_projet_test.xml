@@ -1,4 +1,0 @@
-<?xml version="1.0"?>
-<scenario name="ron_projet_test" desc="">
-	<level src="Levels/niveau_type_ron_color.xml" name="niveau_type_ron_color" />
-</scenario>
