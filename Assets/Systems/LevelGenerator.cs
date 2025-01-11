@@ -376,7 +376,7 @@ public class LevelGenerator : FSystem {
 		string fct = "si (" + slot1 + " " + slot2 + " " + slot3.ToString() + ") <br>"
 					+"	ouvrir la porte <br>";
 
-		ronDoor.transform.Find("Door").GetComponent<TooltipContent>().text = fct;
+		ronDoor.transform.Find("Door").GetComponent<TooltipContent>().text = fct.Replace("*", "x");
 		ronDoor.GetComponentInChildren<Position>().x = gridX;
 		ronDoor.GetComponentInChildren<Position>().y = gridY;
 		ronDoor.GetComponentInChildren<Direction>().direction = orientation;

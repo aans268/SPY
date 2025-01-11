@@ -16,7 +16,7 @@
 
 	<executionLimit amount="1" />
 
-	<score twoStars="3698" threeStars="3844"/>
+	<score twoStars="3700" threeStars="4018"/>
 
 	<blockLimits>
 		<blockLimit blockType="Forward" limit="-1" />
@@ -46,7 +46,7 @@
 		<blockLimit blockType="Exit" limit="0" />
 	</blockLimits>
 
-	<ronDoor posX="6" posY="8" equation="3*ron - 1*ron" operator_sign="&#33;=" result="8" direction="0" />
+	<ronDoor posX="6" posY="8" equation="3 * ron - 1 * ron" operator_sign="&#33;=" result="8" direction="0" />
 
 	<ron posX="4" posY="6" value="1" />
 

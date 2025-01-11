@@ -51,7 +51,7 @@
 
 	<ron posX="3" posY="3" value="2" />
 
-	<ronDoor posX="4" posY="9" equation="2*ron + ron - 3" operator_sign="&gt;=" result="6" direction="0" />
+	<ronDoor posX="4" posY="9" equation="2 * ron" operator_sign="&gt;=" result="6" direction="0" />
 
 	<player inputLine="Bob" posX="2" posY="10" direction="0" />
 
