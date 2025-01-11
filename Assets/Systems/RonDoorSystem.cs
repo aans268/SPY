@@ -89,9 +89,6 @@ public class RonDoorSystem : FSystem
             audioSource.Play();
             animator.SetTrigger("Close");
         }
-        var tooltip = ronDoor.transform.GetComponent<TooltipContent>();
-        ronDoor.transform.parent.transform.Find("TeleporterCentral").GetComponent<TooltipContent>().text = result ? tooltip.text : "";
-
         animator.speed = gameData.gameSpeed_current;
     }
 

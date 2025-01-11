@@ -7,4 +7,6 @@
 	<level src="Levels/TestScenarioRonDoor/ronDoorNiv1.4.xml" name="ronDoorNiv1.4" />
 	<level src="Levels/TestScenarioRonDoor/ronDoorNiv1.5.xml" name="ronDoorNiv1.5" />
 	<level src="Levels/TestScenarioRonDoor/ronDoorNiv1.6.xml" name="ronDoorNiv1.6" />
+	<level src="Levels/TestScenarioRonDoor/ronDoorNiv2.1.xml" name="ronDoorNiv2.1" />
+	<level src="Levels/TestScenarioRonDoor/ronDoorNiv2.2.xml" name="ronDoorNiv2.2" />
 </scenario>

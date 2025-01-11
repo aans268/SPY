@@ -377,6 +377,7 @@ public class LevelGenerator : FSystem {
 					+"	ouvrir la porte <br>";
 
 		ronDoor.transform.Find("Door").GetComponent<TooltipContent>().text = fct.Replace("*", "x");
+		ronDoor.transform.Find("TeleporterCentral").GetComponent<TooltipContent>().text = fct.Replace("*", "x");
 		ronDoor.GetComponentInChildren<Position>().x = gridX;
 		ronDoor.GetComponentInChildren<Position>().y = gridY;
 		ronDoor.GetComponentInChildren<Direction>().direction = orientation;

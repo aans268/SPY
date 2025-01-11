@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<level>
+	<map>
+		<line><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="3" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="0" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="0" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="0" /><cell value="0" /><cell value="0" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="0" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="2" /><cell value="-1" /><cell value="-1" /></line>
+		<line><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /><cell value="-1" /></line>
+	</map>
+
+	<score twoStars="0" threeStars="4333"/>
+
+	<blockLimits>
+		<blockLimit blockType="Forward" limit="-1" />
+		<blockLimit blockType="TurnLeft" limit="-1" />
+		<blockLimit blockType="TurnRight" limit="-1" />
+		<blockLimit blockType="TurnBack" limit="-1" />
+		<blockLimit blockType="Activate" limit="0" />
+		<blockLimit blockType="Wait" limit="0" />
+		<blockLimit blockType="IfThen" limit="0" />
+		<blockLimit blockType="IfElse" limit="0" />
+		<blockLimit blockType="ForLoop" limit="-1" />
+		<blockLimit blockType="While" limit="0" />
+		<blockLimit blockType="Forever" limit="-1" />
+		<blockLimit blockType="AndOperator" limit="0" />
+		<blockLimit blockType="OrOperator" limit="0" />
+		<blockLimit blockType="NotOperator" limit="0" />
+		<blockLimit blockType="WallFront" limit="0" />
+		<blockLimit blockType="WallLeft" limit="0" />
+		<blockLimit blockType="WallRight" limit="0" />
+		<blockLimit blockType="PathFront" limit="0" />
+		<blockLimit blockType="PathLeft" limit="0" />
+		<blockLimit blockType="PathRight" limit="0" />
+		<blockLimit blockType="Enemy" limit="0" />
+		<blockLimit blockType="RedArea" limit="0" />
+		<blockLimit blockType="FieldGate" limit="0" />
+		<blockLimit blockType="Terminal" limit="0" />
+		<blockLimit blockType="Exit" limit="0" />
+	</blockLimits>
+
+	<ronDoor posX="2" posY="5" equation="2 * ron" operator_sign="&gt;" result="10" direction="1" />
+
+	<ronDoor posX="2" posY="3" equation="(2 * ron) - 2" operator_sign="=" result="12" direction="1" />
+
+	<decoration name="Modern Furniture/Prefabs/Triangle Chair" posX="1" posY="2" direction="1" />
+
+	<decoration name="Modern Furniture/Prefabs/Triangle Chair" posX="3" posY="2" direction="1" />
+
+	<ron posX="1" posY="4" value="3" />
+
+	<ron posX="3" posY="4" value="3" />
+
+	<ron posX="2" posY="8" value="1" />
+
+	<ron posX="2" posY="7" value="2" />
+
+	<ron posX="2" posY="6" value="3" />
+
+	<ron posX="1" posY="7" value="2" />
+
+	<ron posX="1" posY="6" value="3" />
+
+	<ron posX="3" posY="7" value="2" />
+
+	<ron posX="3" posY="6" value="1" />
+
+	<player inputLine="Bob" posX="2" posY="9" direction="0" />
+
+	<script outputLine="Bob" editMode="0" type="3">
+	</script>
+
+</level>
